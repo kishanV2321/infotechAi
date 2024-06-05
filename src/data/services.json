@@ -1,0 +1,64 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "SaaS Apps Development Services",
+            "slug": "saas-app-dev",
+            "description": "Our SaaS consultants will help you build multi-tenant, secure, and robust SaaS solutions so that you can serve customers better.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1609921141835-710b7fa6e438?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 2,
+            "title": "Front end Development Services",
+            "slug": "front-end-dev",
+            "description": "Build modern single page web applications using the reusable, dynamic, component driven architecture of React.js, Angular.js, Vue.js.",
+            "price": 109.99,
+            "instructor": "Jane Smith",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=1562&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 3,
+            "title": "Progressive Web Apps Development",
+            "slug": "web-app-dev",
+            "description": "Bring features and performance we expect from native apps to any browser and across platforms without any interruption or loss of speed.",
+            "price": 119.99,
+            "instructor": "Emily Johnson",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 4,
+            "title": "Backend & Node.js Development Services",
+            "slug": "backend-dev",
+            "description": "Our software architects design solid backend to accommodate scale, flexibility to integrate, advanced data structures, and cutting edge security.",
+            "price": 129.99,
+            "instructor": "Mike Brown",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 5,
+            "title": "E-commerce Web Apps Development Services",
+            "slug": "e-commerce-web-app-dev",
+            "description": "Using Shopify, Magento, and custom frameworks, we help you build e-shops and B2B eCommerce portals that boost your growth.",
+            "price": 139.99,
+            "instructor": "Chris Davis",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1605&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 6,
+            "title": "Custom Web Apps Development for Enterprises",
+            "slug": "custom-web-app",
+            "description": "Get a performance boost across the organization by building web-based apps like inventory-, transport-, learning, and process management systems.",
+            "price": 149.99,
+            "instructor": "Alex Wilson",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1519222970733-f546218fa6d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
