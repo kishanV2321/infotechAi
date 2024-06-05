@@ -2,7 +2,7 @@
 import React, { FormEvent, useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background.beams";
 
-export default function contact() {
+export default function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
