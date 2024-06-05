@@ -7,7 +7,7 @@ function HowWeDevelop() {
         <div className="py-12 bg-gray-900">
             <div>
                 <div className="text-center">
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">How We Develop
+                    <p className="mt-2 mx-6 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">How We Develop
 Web Apps Using Agiles</p>
                 </div>
             </div>

@@ -53,9 +53,9 @@ function Services() {
                 </Link>
             </div>
             <div className="mt-16 text-center">
-                <h2 className="text-xl text-teal-600 font-semibold tracking-wide uppercase">Benefits of Working with
+                <h2 className="text-xl mx-4 text-teal-600 font-semibold tracking-wide uppercase">Benefits of Working with
                     Us</h2>
-                <p className="mt-2 mx-4 sm:mx-20 text-base leading-8 font-medium sm:font-semibold tracking-tight text-white sm:text-2xl md:text-3xl">Building scalable web apps using modern frameworks, structured architecture patterns, and user-centric UI/UX designs are the things that differentiate us from our competitors. In a nutshell, our custom web application development services are a promised commitment to quality and on-time delivery.</p>
+                <p className="mt-2 mx-6 sm:mx-20 text-sm leading-8 font-medium sm:font-semibold tracking-tight text-white sm:text-2xl md:text-3xl">Building scalable web apps using modern frameworks, structured architecture patterns, and user-centric UI/UX designs are the things that differentiate us from our competitors. In a nutshell, our custom web application development services are a promised commitment to quality and on-time delivery.</p>
             </div>
         </div>
     )
