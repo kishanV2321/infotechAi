@@ -7,8 +7,7 @@ function HowWeDevelop() {
         <div className="py-12 bg-gray-900">
             <div>
                 <div className="text-center">
-                    <p className="mt-2 mx-6 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">How We Develop
-Web Apps Using Agiles</p>
+                    <p className="mt-2 mx-6 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">We offer a wide range of services to our clients</p>
                 </div>
             </div>
             <div className="max-w-5xl mx-auto px-8">
@@ -21,39 +20,39 @@ Web Apps Using Agiles</p>
 
 export const projects = [
     {
-        title: "Sprint planning",
+        title: "Privacy first design",
         description:
-            "Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.",
+            "Holistic approach to privacy--our own data centers across the globe, no trackers, and no sub-processors",
         link: "#",
     },
     {
-        title: "Tech architecture",
+        title: "Choice of deployment models",
         description:
-            "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently.",
+            "Availability of on-premises and cloud models along with the flexibility of migration between them",
         link: "#",
     },
     {
-        title: "Stand-ups & weekly demos",
+        title: "360° approach to IT service management",
         description:
-            "Stand ups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.",
+            "Deep native integrations with ManageEngine‘s wide spectrum of IT products",
         link: "#",
     },
     {
-        title: "Code reviews",
+        title: "Preliminary assessment of support feasibility",
         description:
-            "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells.",
+            "We assess the impact of our technical infrastructure support by comparing actual and expected TCOs. ",
         link: "#",
     },
     {
-        title: "Deploy",
+        title: "Focus on long-term IT support",
         description:
-            "Deploying code is the process of moving code changes from a development environment to a production environment, where it becomes accessible to users. ",
+            "We ensure high service scalability and successfully manage long-term IT support projects.",
         link: "#",
     },
     {
-        title: "Manage",
+        title: "Smart approach to cost optimization",
         description:
-            "Deploying code is the process of moving code changes from a development environment to a production environment, where it becomes accessible to users. ",
+            "We can reduce your IT infrastructure costs by implementing the Infrastructure as Code approach, configuring optimal cloud consumption.",
         link: "#",
     },
 ];

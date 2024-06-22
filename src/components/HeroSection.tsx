@@ -17,12 +17,10 @@ function Herosection() {
             >
                 <div className="p-4 relative z-10 w-full text-center">
                     <h1 className="mt-20 md:mt-0 text-4xl md:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                        Web application development services using industry leading
-                        technologies
+                    Transform Your Business with Comprehensive IT Solutions
                     </h1>
                     <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-                        Harness the power of modern web frameworks to build progressive web
-                        apps that scale
+                    Elevate your IT capabilities and future-proof your business with our expert solutions and services. Contact us today to learn more!
                     </p>
                     <div className="mt-4">
                         <Link href={"/services"}>

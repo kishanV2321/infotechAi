@@ -23,7 +23,7 @@ function Services() {
             <div>
                 <div className="text-center">
                     <h2 className="text-lg text-teal-600 font-semibold tracking-wide uppercase">Services</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">We offer a wide range of Development services</p>
+                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">We offer a wide range of supoort & services</p>
                 </div>
             </div>
             <div className="mt-10 mx-8">
@@ -52,11 +52,11 @@ function Services() {
                 </button>
                 </Link>
             </div>
-            <div className="mt-16 text-center">
+            {/* <div className="mt-16 text-center">
                 <h2 className="text-lg sm:text-xl mx-4 text-teal-600 font-semibold tracking-wide uppercase">Benefits of Working with
                     Us</h2>
-                <p className="mt-2 mx-6 sm:mx-20 text-sm leading-8 font-medium sm:font-semibold tracking-tight text-white sm:text-2xl md:text-3xl">Building scalable web apps using modern frameworks, structured architecture patterns, and user-centric UI/UX designs are the things that differentiate us from our competitors. In a nutshell, our custom web application development services are a promised commitment to quality and on-time delivery.</p>
-            </div>
+                <p className="mt-2 mx-6 sm:mx-20 text-sm leading-8 font-medium sm:font-semibold tracking-tight text-white sm:text-2xl md:text-3xl">Imagine a robust infrastructure where hardware, software, network, storage, firewall, and backup systems seamlessly integrate, ensuring your business runs smoothly and efficiently, 24/7.</p>
+            </div> */}
         </div>
     )
 }
