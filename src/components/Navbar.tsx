@@ -132,7 +132,7 @@ function Navbar({className, toggleMenu, isMenuOpen} : NavbarProps) {
             </div>
 
             {isMenuOpen &&
-                <div className="h-full">
+                <div>
                     <NavbarItem />
                 </div>}
         </>
