@@ -6,7 +6,7 @@ import { HoveredLink } from "./ui/navbar-menu";
 
 function NavbarItem() {
     return (
-        <div className='h-screen w-screen overflow-y-scroll bg-black p-4 m-4'>
+        <div className='w-screen lg:w-3/12 h-screen overflow-y-scroll z-20 bg-black p-4 m-4'>
             <div className="flex flex-col space-y-3 mt-14 ml-4">
                 <HoveredLink href={"/services"}>
                     <div className="flex flex-row items-center font-semibold text-lg">

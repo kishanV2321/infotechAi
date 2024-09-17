@@ -1,28 +1,11 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/Navbar";
+// app/layout.tsx (Server Component)
+import MetadataLayout from "@/components/MetadataLayout";
+import RootLayout from "@/components/RootLayout";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Info TechAi",
-  description: "Tech Service provider",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body className={inter.className}>
-        <div className="relative w-full flex items-center justify-center">
-          <Navbar />
-        </div>
-        {children}
-        </body>
-    </html>
+    <MetadataLayout>
+      <RootLayout>{children}</RootLayout>
+    </MetadataLayout>
   );
 }

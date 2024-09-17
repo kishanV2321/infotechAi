@@ -8,18 +8,18 @@ import NavbarItem from "./NavbarItem";
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Navbar({ className }: { className?: string }) {
+interface NavbarProps{
+    isMenuOpen: Boolean;
+    toggleMenu: () => void;
+    className?: String;
+}
+
+function Navbar({className, toggleMenu, isMenuOpen} : NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
 
     // State to manage whether the menu is collapsed or not
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     // Function to toggle the menu state
-    const toggleMenu = () => {
-        console.log("click");
-
-        setIsMenuOpen(!isMenuOpen);
-    };
 
     return (
         <>
@@ -130,6 +130,7 @@ function Navbar({ className }: { className?: string }) {
                     </div>
                 </div>
             </div>
+
             {isMenuOpen &&
                 <div className="h-full">
                     <NavbarItem />

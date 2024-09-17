@@ -3,6 +3,7 @@ import React from 'react'
 import { HoverEffect } from "./ui/card-hover-effect";
 
 function HowWeDevelop() {
+    
     return (
         <div className="py-12 bg-gray-900">
             <div>

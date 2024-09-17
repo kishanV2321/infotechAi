@@ -71,6 +71,7 @@ const content = [
 ];
 
 function WhyChooseUs() {
+    
     return (
         <div>
             <StickyScroll content={content} />
