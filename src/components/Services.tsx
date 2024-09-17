@@ -45,13 +45,6 @@ function Services() {
             </div>
 
             </div>
-            <div className="mt-20 text-center">
-                <Link href={"/contact"}>
-                    <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">
-                    Contact Us
-                </button>
-                </Link>
-            </div>
             {/* <div className="mt-16 text-center">
                 <h2 className="text-lg sm:text-xl mx-4 text-teal-600 font-semibold tracking-wide uppercase">Benefits of Working with
                     Us</h2>

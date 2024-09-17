@@ -7,14 +7,15 @@ import { HiArrowRight } from "react-icons/hi";
 import NavbarItem from "./NavbarItem";
 import Image from 'next/image';
 import Link from 'next/link';
+import { ImCross } from "react-icons/im";
 
-interface NavbarProps{
+interface NavbarProps {
     isMenuOpen: Boolean;
     toggleMenu: () => void;
     className?: String;
 }
 
-function Navbar({className, toggleMenu, isMenuOpen} : NavbarProps) {
+function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
 
     // State to manage whether the menu is collapsed or not
@@ -37,19 +38,23 @@ function Navbar({className, toggleMenu, isMenuOpen} : NavbarProps) {
                         </Link>
                         <button
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-black rounded-lg md:hidden hover:bg-white"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-black rounded-lg md:hidden hover:bg-white border-2 border-white"
                             onClick={toggleMenu}
                         >
                             <span className="sr-only">Open main menu</span>
-                            <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                                <path
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M1 1h15M1 7h15M1 13h15"
-                                />
-                            </svg>
+                            {!isMenuOpen ? (
+                                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                    <path
+                                        stroke="currentColor"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M1 1h15M1 7h15M1 13h15"
+                                    />
+                                </svg>
+                            ) : (
+                                <ImCross />
+                            )}
                         </button>
                     </div>
                     <div className="items-center justify-between w-full md:flex md:w-auto md:order-1 hidden">
