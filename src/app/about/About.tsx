@@ -21,7 +21,7 @@ const About: React.FC = () => {
                         </h2>
                         <p className="mx-auto mt-4 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
                             Studynotion is at the forefront of driving innovation in online
-                            education. We're passionate about creating a brighter future by
+                            education.  We&apos;re passionate about creating a brighter future by
                             offering cutting-edge courses, leveraging emerging technologies,
                             and nurturing a vibrant learning community.
                         </p>
