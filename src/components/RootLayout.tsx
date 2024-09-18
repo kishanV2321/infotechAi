@@ -4,6 +4,7 @@
 import { Inter } from "next/font/google";
 import "../app/globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "./Footer";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,6 +30,7 @@ export default function RootLayout({
                 <div className={isMenuOpen ? "hidden" : ""}>
                     {children}
                 </div>
+                <div><Footer /></div>
             </body>
         </html>
     );

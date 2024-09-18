@@ -61,7 +61,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-black">
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/"
                                 >
                                     <MenuItem setActive={setActive} active={active} item="Home">
                                     </MenuItem>
@@ -69,7 +69,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/about"
                                 >
                                     <MenuItem setActive={setActive} active={active} item="About">
                                     </MenuItem>
