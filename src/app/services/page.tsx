@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import serviceData from "@/data/services.json"
 
-function Page() {
+function Service() {
     return (
         <div className="min-h-screen bg-black py-12 pt-36">
             <h1 className="text-lg md:text-4xl text-center font-sans font-semibold mb-8 text-white">All Services ({serviceData.services.length})</h1>
@@ -63,4 +63,4 @@ function Page() {
     )
 }
 
-export default Page
+export default Service

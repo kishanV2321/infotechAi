@@ -86,7 +86,7 @@ const OurProcess: React.FC = () => {
                             {card.BtnText && card.BtnLink && (
                                 <div className="w-fit mt-2">
                                     <Button active={true} linkto={"/contact"}>
-                                        Contact Us
+                                        Contact
                                     </Button>
                                 </div>
                             )}

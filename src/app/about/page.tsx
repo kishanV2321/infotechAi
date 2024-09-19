@@ -1,12 +1,12 @@
 "use client"
 import React from 'react'
-import About from './About'
+import AboutSection from './AboutSection'
 
 
-function page() {
+function About() {
     return (
-        <div className='bg-black text-white'><About /></div>
+        <div className='bg-black text-white'><AboutSection /></div>
     )
 }
 
-export default page
+export default About

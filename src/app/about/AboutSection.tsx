@@ -7,7 +7,7 @@ import OurProcess from "./OurProcess";
 // import FoundingStory from "../../../assets/Images/FoundingStory.png";
 
 
-const About: React.FC = () => {
+const AboutSection: React.FC = () => {
     return (
         <div className="w-full">
             <section className="bg-richblack-700 py-12">
@@ -116,4 +116,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default AboutSection;

@@ -17,7 +17,7 @@ interface NavbarProps {
 
 function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
-    
+
 
     return (
         <>
@@ -87,7 +87,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                                                             Maintenance <HiArrowRight className="ml-1" /></div>
                                                     </HoveredLink>
                                                     <hr />
-                                                    <HoveredLink href="/storagemaintenance">Storage Maintenance</HoveredLink>
+                                                    <HoveredLink href={"/services/thirdpartyhardware/storagemaintenance"}>Storage Maintenance</HoveredLink>
                                                     <HoveredLink href="/servermaintenance">Server Maintenance</HoveredLink>
                                                     <HoveredLink href="/networkmaintenace">Network Maintenance</HoveredLink>
                                                 </div>

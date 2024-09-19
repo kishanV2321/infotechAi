@@ -42,7 +42,7 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
                 {isOpenService === "thirdpartyhardware" &&
                     <>
-                        <HoveredLink href="/storagemaintenance" onClick={toggleMenu}>Storage Maintenance</HoveredLink>
+                        <HoveredLink href="/services/thirdpartyhardware/storagemaintenance" onClick={toggleMenu}>Storage Maintenance</HoveredLink>
                         <HoveredLink href="/servermaintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
                         <HoveredLink href="/networkmaintenace" onClick={toggleMenu}>Network Maintenance</HoveredLink>
                     </>}
