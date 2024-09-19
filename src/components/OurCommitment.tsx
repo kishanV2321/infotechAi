@@ -38,7 +38,7 @@ const TimeLine: TimeLineItem[] = [
 
 const OurCommitment: React.FC = () => {
     return (
-        <div className="mx-auto w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-8 py-12">
+        <div className="mx-auto w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-8 py-12 bg-black text-white">
             {/* Job that is in Demand - Section 1 */}
             <div className="lg:mt-20 mb-10 mt-[100px] flex flex-col lg:flex-row justify-between gap-7 lg:gap-0">
                 <div className="text-4xl font-semibold lg:w-[45%]">

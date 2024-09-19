@@ -18,6 +18,8 @@ export default function RootLayout({
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
+        console.log(isMenuOpen);
+        
     };
 
     return (

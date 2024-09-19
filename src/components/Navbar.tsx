@@ -17,10 +17,7 @@ interface NavbarProps {
 
 function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
-
-    // State to manage whether the menu is collapsed or not
-
-    // Function to toggle the menu state
+    
 
     return (
         <>
@@ -138,90 +135,10 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
 
             {isMenuOpen &&
                 <div>
-                    <NavbarItem />
+                    <NavbarItem toggleMenu={toggleMenu} />
                 </div>}
         </>
     )
 }
 
 export default Navbar
-
-
-/* 
-<div
-            className={cn("fixed top-0 sm:top-6 inset-x-0 max-w-2xl mx-auto z-50", className)}
-        >
-            <Menu setActive={setActive}>
-                <Link href={"/"}>
-                    <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
-                </Link>
-
-                <div className="sm:hidden">
-                    <Link href={""}>
-                        <div>Our Services</div>
-                    </Link>
-                </div>
-
-                <div className="sm:flex hidden">
-                    <MenuItem setActive={setActive} active={active} item="Services">
-                        <div className="sm:flex flex-row hidden space-x-8 ">
-                            <div className="flex flex-col space-y-4 text-sm">
-                                <HoveredLink href={"/services"}>
-                                    <div className="font-extrabold">
-                                        Third Party Hardware</div>
-                                    <div className="flex flex-row items-center font-extrabold">
-                                        Maintenance <HiArrowRight className="ml-1" /></div>
-                                </HoveredLink>
-                                <hr />
-                                <HoveredLink href="/storagemaintenance">Storage Maintenance</HoveredLink>
-                                <HoveredLink href="/servermaintenance">Server Maintenance</HoveredLink>
-                                <HoveredLink href="/networkmaintenace">Network Maintenance</HoveredLink>
-                            </div>
-
-                            <div className="flex flex-col space-y-4 text-sm">
-                                <HoveredLink href={"/services"}>
-                                    <div className="font-extrabold">
-                                        Infrastructure Managed</div>
-                                    <div className="flex flex-row items-center font-extrabold">Services <HiArrowRight className="ml-1" /></div>
-                                </HoveredLink>
-                                <hr />
-                                <HoveredLink href="/hardwaremonitoring">Hardware Monitoring</HoveredLink>
-                                <HoveredLink href="/baselevelsupport">Base Level Support</HoveredLink>
-                                <HoveredLink href="/pluslevelsupport">Plus Level Support</HoveredLink>
-                                <HoveredLink href="/hardlevelsupport">Full Level Support</HoveredLink>
-                                <HoveredLink href="/vmwaretechnical">VMware Technical Support</HoveredLink>
-                            </div>
-
-                            <div className="flex flex-col space-y-4 text-sm">
-                                <HoveredLink href={"/services"}>
-                                    <div className="flex flex-row items-center font-extrabold">
-                                        Professional Services <HiArrowRight className="ml-1" /></div>
-                                    <div className="mt-5"></div>
-                                </HoveredLink>
-                                <hr />
-                                <HoveredLink href="/hardwaremonitoring">Wireless Transformation</HoveredLink>
-                                <HoveredLink href="/baselevelsupport">IT Asset Disposition</HoveredLink>
-                                <HoveredLink href="/pluslevelsupport">Storage & Data Migration</HoveredLink>
-                                <HoveredLink href="/hardlevelsupport">Data Center Relocation</HoveredLink>
-                                <HoveredLink href="/cloudsupport">Cloud Support</HoveredLink>
-                                <HoveredLink href="/remotehands">Remote Hands</HoveredLink>
-                                <HoveredLink href="/imacservices">IMAC Services</HoveredLink>
-                                <HoveredLink href="/itdeployments">IT Deployments</HoveredLink>
-                                <HoveredLink href="/softwaredevelopment">Software Development</HoveredLink>
-                            </div>
-                        </div>
-
-                    </MenuItem>
-                </div>
-                <Link href={"/contact"}>
-                    <MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
-                </Link>
-            </Menu>
-
-            {false && (
-                <div>
-                    <NavbarItem />
-                </div>
-            )}
-        </div>
-*/
