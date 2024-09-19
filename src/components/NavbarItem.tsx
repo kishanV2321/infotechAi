@@ -20,7 +20,7 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
 
     return (
         <div className='w-screen lg:w-3/12 h-screen overflow-y-scroll z-20 bg-black p-4 mt-4 text-white'>
-            <div className="flex flex-col space-y-3 mt-14 ml-4">
+            <div className='flex flex-col space-y-3 mt-14 ml-4'>
                 <HoveredLink href={"/"} onClick={toggleMenu}>
                     <h2 className="text-lg text-teal-600 font-semibold tracking-wide uppercase">Home</h2>
                 </HoveredLink>
@@ -33,6 +33,9 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                     <h2 className="flex flex-row items-center text-lg text-teal-600 font-semibold tracking-wide uppercase">Services <VscArrowDown className='ml-1' /></h2>
                 </HoveredLink>
                 <hr />
+            </div>
+
+            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
                 <div className="flex flex-row items-center font-semibold text-lg" onClick={() => toggle("thirdpartyhardware")}>
                     Third Party Hardware Maintenance <HiArrowRight className="ml-1" />
                 </div>
@@ -45,7 +48,7 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                     </>}
             </div>
 
-            <div className="flex flex-col space-y-3 mt-4 ml-4">
+            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
                 <div className="flex flex-row items-center font-semibold text-lg"
                     onClick={() => toggle("infrastructuremanage")}>
                     Infrastructure Managed Services <HiArrowRight className="ml-1" /></div>
@@ -60,7 +63,7 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                     </>}
             </div>
 
-            <div className="flex flex-col space-y-3 mt-4 ml-4">
+            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
                 <HoveredLink href={"/services"}>
                     <div className="flex flex-row items-center font-semibold text-lg"
                         onClick={() => toggle("professionalservice")}>
