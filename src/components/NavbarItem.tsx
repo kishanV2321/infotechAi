@@ -19,7 +19,7 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
 
 
     return (
-        <div className='w-screen lg:w-3/12 h-screen overflow-y-scroll z-20 bg-black p-4 mt-4'>
+        <div className='w-screen lg:w-3/12 h-screen overflow-y-scroll z-20 bg-black p-4 mt-4 text-white'>
             <div className="flex flex-col space-y-3 mt-14 ml-4">
                 <HoveredLink href={"/"} onClick={toggleMenu}>
                     <h2 className="text-lg text-teal-600 font-semibold tracking-wide uppercase">Home</h2>
