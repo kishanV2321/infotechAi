@@ -5,7 +5,7 @@ import About from './About'
 
 function page() {
     return (
-        <div><About /></div>
+        <div className='bg-black'><About /></div>
     )
 }
 
