@@ -49,7 +49,7 @@ function StotageMaintenace() {
                 <WhyChooseUs />
             </div>
 
-            <div>
+            <div className=''>
                 <GlobeDemo />
             </div>
         </>

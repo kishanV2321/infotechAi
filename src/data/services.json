@@ -55,7 +55,7 @@
         {
             "id": 6,
             "title": "Software Development",
-            "slug": "soft-dev",
+            "slug": "software-development",
             "description": "Transform your ideas into reality with our custom software development services. From website design to mobile apps and ERP software, we create innovative solutions that drive your business forward.",
             "price": 149.99,
             "instructor": "Alex Wilson",
