@@ -19,7 +19,7 @@ const content = [
                 />
             </div>
         ),
-    }, 
+    },
     {
         title: "Structured architectural patterns for developing systems at scale",
         description:
@@ -35,7 +35,7 @@ const content = [
                 />
             </div>
         ),
-    }, 
+    },
     {
         title: "Great web apps start with great front-end",
         description:
@@ -67,13 +67,16 @@ const content = [
             </div>
         ),
     },
-    
+
 ];
 
 function WhyChooseUs() {
-    
+
     return (
-        <div>
+        <div className="bg-slate-900">
+            <div className=" bg-gradient-to-br from-[#7e1fbd] via-[#4a56fd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent text-center py-12">
+                Why Choose Us
+            </div>
             <StickyScroll content={content} />
         </div>
     )

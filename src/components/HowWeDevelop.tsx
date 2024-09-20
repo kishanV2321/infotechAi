@@ -5,7 +5,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 function HowWeDevelop() {
     
     return (
-        <div className="py-12 bg-gray-900">
+        <div className="py-12 bg-gradient-to-br from-[#132f53] via-[#000000] to-[#54175a]">
             <div>
                 <div className="text-center">
                     <p className="mt-2 mx-6 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">We offer a wide range of services to our clients</p>

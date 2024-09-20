@@ -14,7 +14,7 @@ const Testimonials: React.FC = () => {
                     </div>
                     <ul role="list"
                         className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
-                        <li>
+                        <li className="shadow-[0_0_20px_0] shadow-[#f5ffb9] rounded-2xl">
                             <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                                 <li>
                                     <figure className="relative rounded-2xl bg-amber-50 p-6 shadow-xl shadow-slate-900/10">
@@ -47,7 +47,7 @@ const Testimonials: React.FC = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li className="shadow-[0_0_20px_0] shadow-[#f5ffb9] rounded-2xl">
                             <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                                 <li>
                                     <figure className="relative rounded-2xl bg-lime-50 p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"
@@ -79,7 +79,7 @@ const Testimonials: React.FC = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li className="shadow-[0_0_20px_0] shadow-[#f5ffb9] rounded-2xl">
                             <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                                 <li>
                                     <figure className="relative rounded-2xl bg-teal-50 p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"

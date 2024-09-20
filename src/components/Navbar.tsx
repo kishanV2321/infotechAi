@@ -8,6 +8,7 @@ import NavbarItem from "./NavbarItem";
 import Image from 'next/image';
 import Link from 'next/link';
 import { ImCross } from "react-icons/im";
+import Button from "./Button";
 
 interface NavbarProps {
     isMenuOpen: Boolean;
@@ -28,11 +29,10 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Info TechAi</span>
                     </Link>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <Link href={"/contact"}>
-                            <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-3 py-2 md:px-4 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">
-                                Contact Us
-                            </button>
-                        </Link>
+                        <Button active={true} linkto={"/contact"}>
+                            Contact Us
+                        </Button>
+                        
                         <button
                             type="button"
                             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-black rounded-lg md:hidden hover:bg-white border-2 border-white"

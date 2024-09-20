@@ -10,7 +10,7 @@ import OurProcess from "./OurProcess";
 const AboutSection: React.FC = () => {
     return (
         <div className="w-full">
-            <section className="bg-richblack-700 py-12">
+            <section className="bg-[#2c333f] py-12">
                 <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
                     <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
                         <h2 className="text-center text-4xl font-semibold tracking-[-0.72px]">
@@ -82,7 +82,7 @@ const AboutSection: React.FC = () => {
                             <h1 className="bg-gradient-to-b from-[#FF512F] to-[#F09819] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%]">
                                 Our Vision
                             </h1>
-                            <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
+                            <p className="text-base font-medium text-white lg:w-[95%]">
                                 With this vision in mind, we set out on a journey to create an
                                 e-learning platform that would revolutionize the way people
                                 learn. Our team of dedicated experts worked tirelessly to
