@@ -28,14 +28,14 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                         <Image src="/docs/images/logo.svg" alt="Info TechAi" width={32} height={32} className="h-8" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Info TechAi</span>
                     </Link>
-                    <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <div className="flex md:order-2 space-x-3 sm:space-x-6 rtl:space-x-reverse">
                         <Button active={true} linkto={"/contact"}>
                             Contact Us
                         </Button>
-                        
+
                         <button
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-black rounded-lg md:hidden hover:bg-white border-2 border-white"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-black rounded-lg lg:hidden hover:bg-white border-2 border-white"
                             onClick={toggleMenu}
                         >
                             <span className="sr-only">Open main menu</span>
@@ -54,7 +54,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                             )}
                         </button>
                     </div>
-                    <div className="items-center justify-between w-full md:flex md:w-auto md:order-1 hidden">
+                    <div className="items-center justify-between w-full lg:flex lg:w-auto md:order-1 hidden">
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-black">
                             <li>
                                 <Link
@@ -74,59 +74,59 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                             </li>
 
                             <li>
-                                <Link href="#"
-                                >
-                                    <div className="flex">
-                                        <MenuItem setActive={setActive} active={active} item="Services">
-                                            <div className="flex flex-row space-x-8 ">
-                                                <div className="flex flex-col space-y-4 text-sm">
-                                                    <HoveredLink href={"/services"}>
-                                                        <div className="font-extrabold">
-                                                            Third Party Hardware</div>
-                                                        <div className="flex flex-row items-center font-extrabold">
-                                                            Maintenance <HiArrowRight className="ml-1" /></div>
-                                                    </HoveredLink>
-                                                    <hr />
-                                                    <HoveredLink href={"/services/thirdpartyhardware/storagemaintenance"}>Storage Maintenance</HoveredLink>
-                                                    <HoveredLink href="/servermaintenance">Server Maintenance</HoveredLink>
-                                                    <HoveredLink href="/networkmaintenace">Network Maintenance</HoveredLink>
-                                                </div>
+                                <div onMouseEnter={() => setActive("Services")}
+                                    onMouseLeave={() => setActive(null)} >
+                                    <Link href="#">
+                                        <div className="flex">
+                                            <MenuItem setActive={setActive} active={active} item="Services">
+                                                <div className="flex flex-row space-x-8 ">
+                                                    <div className="flex flex-col space-y-4 text-sm">
+                                                        <HoveredLink href={"/services"}>
+                                                            <div className="font-extrabold">
+                                                                Third Party Hardware</div>
+                                                            <div className="flex flex-row items-center font-extrabold">
+                                                                Maintenance <HiArrowRight className="ml-1" /></div>
+                                                        </HoveredLink>
+                                                        <hr />
+                                                        <HoveredLink href={"/services/third-party-hardware/storage-maintenance"}>Storage Maintenance</HoveredLink>
+                                                        <HoveredLink href="/services/third-party-hardware/server-maintenance">Server Maintenance</HoveredLink>
+                                                        <HoveredLink href="/services/third-party-hardware/network-maintenance">Network Maintenance</HoveredLink>
+                                                    </div>
 
-                                                <div className="flex flex-col space-y-4 text-sm">
-                                                    <HoveredLink href={"/services"}>
-                                                        <div className="font-extrabold">
-                                                            Infrastructure Managed</div>
-                                                        <div className="flex flex-row items-center font-extrabold">Services <HiArrowRight className="ml-1" /></div>
-                                                    </HoveredLink>
-                                                    <hr />
-                                                    <HoveredLink href="/hardwaremonitoring">Hardware Monitoring</HoveredLink>
-                                                    <HoveredLink href="/baselevelsupport">Base Level Support</HoveredLink>
-                                                    <HoveredLink href="/pluslevelsupport">Plus Level Support</HoveredLink>
-                                                    <HoveredLink href="/hardlevelsupport">Full Level Support</HoveredLink>
-                                                    <HoveredLink href="/vmwaretechnical">VMware Technical Support</HoveredLink>
-                                                </div>
+                                                    <div className="flex flex-col space-y-4 text-sm">
+                                                        <HoveredLink href={"/services"}>
+                                                            <div className="font-extrabold">
+                                                                Infrastructure Managed</div>
+                                                            <div className="flex flex-row items-center font-extrabold">Services <HiArrowRight className="ml-1" /></div>
+                                                        </HoveredLink>
+                                                        <hr />
+                                                        <HoveredLink href="/services/infrastructure-services/hardware-monitoring">Hardware Monitoring</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/base-level-support">Base Level Support</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/plus-level-support">Plus Level Support</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/full-level-support">Full Level Support</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/vmware-technical-support">VMware Technical Support</HoveredLink>
+                                                    </div>
 
-                                                <div className="flex flex-col space-y-4 text-sm">
-                                                    <HoveredLink href={"/services"}>
-                                                        <div className="flex flex-row items-center font-extrabold">
-                                                            Professional Services <HiArrowRight className="ml-1" /></div>
-                                                        <div className="mt-5"></div>
-                                                    </HoveredLink>
-                                                    <hr />
-                                                    <HoveredLink href="/hardwaremonitoring">Wireless Transformation</HoveredLink>
-                                                    <HoveredLink href="/baselevelsupport">IT Asset Disposition</HoveredLink>
-                                                    <HoveredLink href="/pluslevelsupport">Storage & Data Migration</HoveredLink>
-                                                    <HoveredLink href="/hardlevelsupport">Data Center Relocation</HoveredLink>
-                                                    <HoveredLink href="/cloudsupport">Cloud Support</HoveredLink>
-                                                    <HoveredLink href="/remotehands">Remote Hands</HoveredLink>
-                                                    <HoveredLink href="/imacservices">IMAC Services</HoveredLink>
-                                                    <HoveredLink href="/itdeployments">IT Deployments</HoveredLink>
-                                                    <HoveredLink href="/softwaredevelopment">Software Development</HoveredLink>
+                                                    <div className="flex flex-col space-y-4 text-sm">
+                                                        <HoveredLink href={"/services"}>
+                                                            <div className="flex flex-row items-center font-extrabold">
+                                                                Professional Services <HiArrowRight className="ml-1" /></div>
+                                                            <div className="mt-5"></div>
+                                                        </HoveredLink>
+                                                        <hr />
+                                                        <HoveredLink href="/services/professional-services/wireless-transformation">Wireless Transformation</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/it-asset-disposition">IT Asset Disposition</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/storage-and-data-migration">Storage & Data Migration</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/cloud-support">Cloud Support</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/imac-services">IMAC Services</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/it-deployements">IT Deployments</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/software-development">Software Development</HoveredLink>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </MenuItem>
-                                    </div>
-                                </Link>
+                                            </MenuItem>
+                                        </div>
+                                    </Link>
+                                </div>
                             </li>
                         </ul>
                     </div>

@@ -5,16 +5,20 @@ import HowWeDevelop from '@/components/HowWeDevelop'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import { GlobeDemo } from '@/components/GlobeDemo'
 
-function CloudSupport() {
+function SoftwareDevelopment() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[520px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center ">
-                    <div className="flex flex-col items-center mx-auto px-4 pt-6 md:px-8 text-center">
-                        <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Cloud Support and Service</h1>
-                        <p className="text-white text-lg md:text-2xl mb-6">The Best in Cloud Support and Service.</p>
-                        <div className='w-fit'>
-                            <Button active={true} linkto={"/"}>Learn More</Button>
+                <div className="w-full h-[520px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center relative">
+                    {/* Overlay for opacity */}
+                    <div className="absolute inset-0 bg-black opacity-50"></div>
+                    <div className="relative flex flex-col justify-center items-center h-full">
+                        <div className="flex flex-col items-center mx-auto px-4 pt-6 md:px-8 text-center">
+                            <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Software Development Service</h1>
+                            <p className="text-white text-lg md:text-2xl mb-6">The Best in Software Development Service.</p>
+                            <div className='w-fit'>
+                                <Button active={true} linkto={"/"}>Learn More</Button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,4 +54,4 @@ function CloudSupport() {
     )
 }
 
-export default CloudSupport
+export default SoftwareDevelopment

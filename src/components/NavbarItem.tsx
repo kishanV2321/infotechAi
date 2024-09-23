@@ -42,9 +42,9 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
                 {isOpenService === "thirdpartyhardware" &&
                     <>
-                        <HoveredLink href="/services/thirdpartyhardware/storagemaintenance" onClick={toggleMenu}>Storage Maintenance</HoveredLink>
-                        <HoveredLink href="/servermaintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
-                        <HoveredLink href="/networkmaintenace" onClick={toggleMenu}>Network Maintenance</HoveredLink>
+                        <HoveredLink href={"/services/third-party-hardware/storage-maintenance"} onClick={toggleMenu}>Storage Maintenance</HoveredLink>
+                        <HoveredLink href="/services/third-party-hardware/server-maintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
+                        <HoveredLink href="/services/third-party-hardware/network-maintenance" onClick={toggleMenu}>Network Maintenance</HoveredLink>
                     </>}
             </div>
 
@@ -55,11 +55,11 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
                 {isOpenService === "infrastructuremanage" &&
                     <>
-                        <HoveredLink href="/hardwaremonitoring" onClick={toggleMenu}>Hardware Monitoring</HoveredLink>
-                        <HoveredLink href="/baselevelsupport" onClick={toggleMenu}>Base Level Support</HoveredLink>
-                        <HoveredLink href="/pluslevelsupport" onClick={toggleMenu}>Plus Level Support</HoveredLink>
-                        <HoveredLink href="/hardlevelsupport" onClick={toggleMenu}>Full Level Support</HoveredLink>
-                        <HoveredLink href="/vmwaretechnical" onClick={toggleMenu}>VMware Technical Support</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/hardware-monitoring" onClick={toggleMenu}>Hardware Monitoring</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/base-level-support" onClick={toggleMenu}>Base Level Support</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/plus-level-support" onClick={toggleMenu}>Plus Level Support</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/full-level-support" onClick={toggleMenu}>Full Level Support</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/vmware-technical-support" onClick={toggleMenu}>VMware Technical Support</HoveredLink>
                     </>}
             </div>
 
@@ -72,15 +72,13 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
                 {isOpenService === "professionalservice" &&
                     <>
-                        <HoveredLink href="/hardwaremonitoring" onClick={toggleMenu}>Wireless Transformation</HoveredLink>
-                        <HoveredLink href="/baselevelsupport" onClick={toggleMenu}>IT Asset Disposition</HoveredLink>
-                        <HoveredLink href="/pluslevelsupport" onClick={toggleMenu}>Storage & Data Migration</HoveredLink>
-                        <HoveredLink href="/hardlevelsupport" onClick={toggleMenu}>Data Center Relocation</HoveredLink>
-                        <HoveredLink href="/cloudsupport" onClick={toggleMenu}>Cloud Support</HoveredLink>
-                        <HoveredLink href="/remotehands" onClick={toggleMenu}>Remote Hands</HoveredLink>
-                        <HoveredLink href="/imacservices" onClick={toggleMenu}>IMAC Services</HoveredLink>
-                        <HoveredLink href="/itdeployments" onClick={toggleMenu}>IT Deployments</HoveredLink>
-                        <HoveredLink href="/softwaredevelopment" onClick={toggleMenu}>Software Development</HoveredLink>
+                        <HoveredLink href="/services/professional-services/wireless-transformation" onClick={toggleMenu}>Wireless Transformation</HoveredLink>
+                        <HoveredLink href="/services/professional-services/it-asset-disposition" onClick={toggleMenu}>IT Asset Disposition</HoveredLink>
+                        <HoveredLink href="/services/professional-services/storage-and-data-migration" onClick={toggleMenu}>Storage & Data Migration</HoveredLink>
+                        <HoveredLink href="/services/professional-services/cloud-support" onClick={toggleMenu}>Cloud Support</HoveredLink>
+                        <HoveredLink href="/services/professional-services/imac-services" onClick={toggleMenu}>IMAC Services</HoveredLink>
+                        <HoveredLink href="/services/professional-services/it-deployements" onClick={toggleMenu}>IT Deployments</HoveredLink>
+                        <HoveredLink href="/services/professional-services/software-development" onClick={toggleMenu}>Software Development</HoveredLink>
                     </>}
             </div>
         </div>

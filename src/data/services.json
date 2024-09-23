@@ -35,7 +35,7 @@
         {
             "id": 4,
             "title": "Cloud Support and Service",
-            "slug": "cloud-support",
+            "slug": "cloud-support-service",
             "description": "Imagine a future where IT infrastructures can monitor themselves, predict and respond to future business needs, and protect and heal themselves. Our Cloud Support and Service for Azure, AWS, and GCP empowers your business with cutting-edge cloud technology and expert guidance.",
             "price": 129.99,
             "instructor": "Mike Brown",
@@ -55,7 +55,7 @@
         {
             "id": 6,
             "title": "Software Development",
-            "slug": "software-development",
+            "slug": "software-development-service",
             "description": "Transform your ideas into reality with our custom software development services. From website design to mobile apps and ERP software, we create innovative solutions that drive your business forward.",
             "price": 149.99,
             "instructor": "Alex Wilson",

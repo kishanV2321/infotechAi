@@ -9,12 +9,16 @@ function StotageMaintenace() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[520px] bg-[url('https://ik.imagekit.io/kvimages/Carousel/img-4.jpg?updatedAt=1704363047379')] bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center ">
-                    <div className="flex flex-col items-center mx-auto px-4 pt-6 md:px-8 text-center">
-                        <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Storage Maintenance & Support</h1>
-                        <p className="text-white text-lg md:text-2xl mb-6">The Best in Storage Support and Maintenance.</p>
-                        <div className='w-fit'>
-                            <Button active={true} linkto={"/"}>Learn More</Button>
+                <div className="w-full h-[520px] bg-[url('https://ik.imagekit.io/kvimages/Carousel/img-4.jpg?updatedAt=1704363047379')] bg-no-repeat bg-center relative">
+                    {/* Overlay for opacity */}
+                    <div className="absolute inset-0 bg-black opacity-50"></div>
+                    <div className="relative flex flex-col justify-center items-center h-full">
+                        <div className="flex flex-col items-center mx-auto px-4 pt-6 md:px-8 text-center">
+                            <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Storage Maintenance & Support</h1>
+                            <p className="text-white text-lg md:text-2xl mb-6">The Best in Storage Support and Maintenance.</p>
+                            <div className='w-fit'>
+                                <Button active={true} linkto={"/"}>Learn More</Button>
+                            </div>
                         </div>
                     </div>
                 </div>
