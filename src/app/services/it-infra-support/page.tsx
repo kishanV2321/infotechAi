@@ -9,7 +9,7 @@ function ITinfraSupportAndService() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/it-infra.jpg?updatedAt=1719041190511')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/data_center_support_f16bca0a-8d6b-4858-b5f6-c6183d6a0580.png?updatedAt=1727778917041')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">

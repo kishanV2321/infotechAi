@@ -9,7 +9,7 @@ function NetworkMaintenance() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/4380747.jpg?updatedAt=1719040473057')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/network_maintenanace_81d9519c-dd48-4254-a792-0ea960c1507c.png?updatedAt=1727778919278')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">

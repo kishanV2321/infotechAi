@@ -1,36 +1,36 @@
 import React from "react";
 import Image from "next/image"; // Import Next.js Image component
 // import TimeLineImage from "../../../assets/Images/TimelineImage.png";
-// import Logo1 from "../../../assets/TimeLineLogo/Logo1.svg";
-// import Logo2 from "../../../assets/TimeLineLogo/Logo2.svg";
-// import Logo3 from "../../../assets/TimeLineLogo/Logo3.svg";
-// import Logo4 from "../../../assets/TimeLineLogo/Logo4.svg";
+import Logo1 from "../asset/logo/expertise.png";
+import Logo2 from "../asset/logo/service.png";
+import Logo3 from "../asset/logo/innovative-thinking.png";
+import Logo4 from "../asset/logo/collaborate.png";
 
 // Define the type for TimeLine elements
 interface TimeLineItem {
-    Logo: String; // Use StaticImageData type for imported images
+    Logo: any; // Use StaticImageData type for imported images
     Heading: string;
     Description: string;
 }
 
 const TimeLine: TimeLineItem[] = [
     {
-        Logo: "",
+        Logo: Logo1,
         Heading: "Expertise",
         Description: "Dedicated to providing cutting-edge IT solutions.",
     },
     {
-        Logo: '',
+        Logo: Logo2,
         Heading: "Customer Focus",
         Description: "Our clients are at the heart of everything we do.",
     },
     {
-        Logo: '',
+        Logo: Logo3,
         Heading: "Innovation",
         Description: "Continuously evolving to meet emerging tech demands.",
     },
     {
-        Logo: '',
+        Logo: Logo4,
         Heading: "Collaboration",
         Description: "Partnering with you for mutual success and growth.",
     },
@@ -70,7 +70,7 @@ const OurCommitment: React.FC = () => {
                                         <div className="flex gap-6" key={i}>
                                             <div className="w-[52px] h-[52px] bg-white rounded-full flex justify-center items-center shadow-[#00000012] shadow-[0_0_62px_0]">
                                                 {/* Use Next.js Image component */}
-                                                <Image src="" alt={ele.Heading} />
+                                                <Image src={ele.Logo} alt={ele.Heading} />
                                             </div>
                                             <div>
                                                 <h2 className="font-semibold text-[18px]">{ele.Heading}</h2>

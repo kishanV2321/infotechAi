@@ -9,7 +9,7 @@ function SoftwareDevelopment() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/software_development_service_4fb6b0e7-5b58-41d6-8457-7a00d82c30db.png?updatedAt=1727778920538')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">

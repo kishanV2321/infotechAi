@@ -26,24 +26,30 @@ const AboutSection: React.FC = () => {
                     </header>
                     <div className="sm:h-[70px] lg:h-[150px]"></div>
                     <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[50%] grid-cols-3 gap-3 lg:gap-5">
-                        <Image
-                            src="https://ik.imagekit.io/kvimages/cardimages/b12.jpg?updatedAt=1704467490856"
-                            alt="Banner 1"
-                            width={500} // Set an appropriate width
-                            height={300} // Set an appropriate height
-                        />
-                        <Image
-                            src="https://ik.imagekit.io/kvimages/cardimages/b11.jpg?updatedAt=1704467490993"
-                            alt="Banner 2"
-                            width={500} // Set an appropriate width
-                            height={300} // Set an appropriate height
-                        />
-                        <Image
-                            src="https://ik.imagekit.io/kvimages/cardimages/b15.jpg?updatedAt=1704467491337"
-                            alt="Banner 3"
-                            width={500} // Set an appropriate width
-                            height={300} // Set an appropriate height
-                        />
+                        <div className="relative w-full h-[300px]">
+                            <Image
+                                src="https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/software_development_service_4fb6b0e7-5b58-41d6-8457-7a00d82c30db.png?updatedAt=1727778920538"
+                                alt="Banner 1"
+                                layout="fill"
+                                objectFit="cover"
+                            />
+                        </div>
+                        <div className="relative w-full h-[300px]">
+                            <Image
+                                src="https://ik.imagekit.io/kvimages/Infotech-Ai/cloud-6515064_1280.jpg?updatedAt=1727778861807"
+                                alt="Banner 2"
+                                layout="fill"
+                                objectFit="cover"
+                            />
+                        </div>
+                        <div className="relative w-full h-[300px]">
+                            <Image
+                                src="https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/storage,server,_network_maintenanace_c1d7627e-1f9b-4f3c-8928-1154ca10f7ad.png?updatedAt=1727778920724"
+                                alt="Banner 3"
+                                layout="fill"
+                                objectFit="cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>

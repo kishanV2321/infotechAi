@@ -9,7 +9,7 @@ function BaseLevelSupport() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/18847.jpg?updatedAt=1719040681447')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/data_center_support_2e3789d1-c532-4d46-9925-1e2bf0c5c3aa.png?updatedAt=1727778915745')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">

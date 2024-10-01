@@ -9,7 +9,7 @@ function StotageMaintenace() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Carousel/img-4.jpg?updatedAt=1704363047379')] bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/data_center_support_946b4315-302e-4f04-bbfb-1995b76ab24e.png?updatedAt=1727778917062')] bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">

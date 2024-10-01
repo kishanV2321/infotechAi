@@ -9,7 +9,7 @@ function ServerMaintenance() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/4380747.jpg?updatedAt=1719040473057')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/storage,server,_network_maintenanace_c1d7627e-1f9b-4f3c-8928-1154ca10f7ad.png?updatedAt=1727778920724')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">
@@ -30,7 +30,7 @@ function ServerMaintenance() {
                     <div className="flex flex-col items-center gap-10 lg:flex-row justify-between lg:justify-center">
                         <div className='my-24 flex lg:w-[80%] flex-col gap-10'>
                             <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[80%]">
-                                Software Development
+                                Server Maintenance
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">
                                 At Info Tech AI, our server maintenance contracts are designed to provide the comprehensive support you need to ensure your server equipment operates efficiently and reliably. We understand that your servers are the backbone of your IT infrastructure, which is why we offer tailored maintenance solutions that prioritize performance and uptime. Our expert team is dedicated to monitoring and maintaining your server systems, addressing potential issues before they impact your business.
