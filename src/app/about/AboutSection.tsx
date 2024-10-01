@@ -71,7 +71,7 @@ const AboutSection: React.FC = () => {
                         </div>
 
                         <div>
-                            <img
+                            <Image
                                 src="https://ik.imagekit.io/kvimages/cardimages/b8.jpg?updatedAt=1704467488087"
                                 alt="Founding Story"
                                 className="shadow-[0_0_20px_0] shadow-[#FC6767]"
