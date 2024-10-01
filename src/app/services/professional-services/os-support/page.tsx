@@ -5,17 +5,17 @@ import HowWeDevelop from '@/components/HowWeDevelop'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import { GlobeDemo } from '@/components/GlobeDemo'
 
-function StorageAndDataMigration() {
+function OSsupport() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/19199000.jpg?updatedAt=1719041190552')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">
                         <div className="flex flex-col items-center mx-auto px-4 mt-12 md:px-8 text-center">
-                            <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Storage & Data Migration Support</h1>
-                            <p className="text-white text-lg md:text-2xl mb-6">Managed by our expert engineers to meet your business requirements.</p>
+                            <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">OS Support and Management</h1>
+                            <p className="text-white text-lg md:text-2xl mb-6">With Microsoft Windows enjoy the ease of installation and also the benefits of virtualization, scalability of Windows.</p>
                             {/* <div className='w-fit'>
                                 <Button active={true} linkto={"/"}>Learn More</Button>
                             </div> */}
@@ -30,13 +30,13 @@ function StorageAndDataMigration() {
                     <div className="flex flex-col items-center gap-10 lg:flex-row justify-between">
                         <div className='my-24 flex lg:w-[50%] flex-col gap-10'>
                             <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[70%]">
-                                Data and Storage Migration Services
+                                With the right partner you make the right choice of tending to the various support needs for your organization
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">
-                                At Info Tech AI, our expert-level data and storage migration services empower businesses to fully leverage their new hardware investments with minimal disruption. Our team of skilled engineers employs a phased methodology to thoroughly understand the unique requirements and objectives of each data migration project. We begin each project with a simple questionnaire followed by a detailed assessment of your existing storage environment. This ensures we have a clear grasp of the project scope, associated costs, and the most effective toolset to meet your business needs.
+                                Unlock the full potential of your operating systems with Info Tech AI’s specialized support and management services. Whether you rely on Linux, Windows, or databases such as Oracle and MS SQL, our tailored solutions ensure that your systems run at optimal performance with robust security. We provide comprehensive OS support, offering everything from installation and configuration to ongoing maintenance and performance monitoring, ensuring that your systems remain efficient and secure.
                             </p>
                             <p className="text-base font-medium lg:w-[95%]">
-                                Our tailored approach to data migration not only streamlines the process but also enhances the overall efficiency of your IT operations. By carefully planning and executing each phase of the migration, we minimize downtime and ensure data integrity throughout the transition. With Info Tech AI's data and storage migration services, you can trust that your critical information will be moved securely and efficiently, allowing you to focus on driving your business forward with confidence in your upgraded infrastructure.
+                                Our expert team collaborates with you to deliver OS support services designed to meet your specific needs. Whether it’s integrating with Windows Azure, Azure Stack, or adopting the latest technologies in the market, we ensure that your infrastructure is optimized to drive maximum productivity. With proactive management and advanced troubleshooting, we help you mitigate risks and minimize downtime, so you can focus on growing your business with the confidence that your operating systems are in capable hands.
                             </p>
                         </div>
                     </div>
@@ -58,4 +58,4 @@ function StorageAndDataMigration() {
     )
 }
 
-export default StorageAndDataMigration
+export default OSsupport

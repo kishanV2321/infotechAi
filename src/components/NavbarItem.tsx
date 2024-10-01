@@ -56,32 +56,28 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 {isOpenService === "infrastructuremanage" &&
                     <>
                         <HoveredLink href="/services/infrastructure-services/hardware-monitoring" onClick={toggleMenu}>Hardware Monitoring</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/base-level-support" onClick={toggleMenu}>Base Level Support</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/plus-level-support" onClick={toggleMenu}>Plus Level Support</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/full-level-support" onClick={toggleMenu}>Full Level Support</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training" onClick={toggleMenu}>IT Infrastructure Training</HoveredLink>
                         <HoveredLink href="/services/infrastructure-services/vmware-technical-support" onClick={toggleMenu}>VMware Technical Support</HoveredLink>
                     </>}
             </div>
 
             <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
-                <HoveredLink href={"/services"}>
-                    <div className="flex flex-row items-center font-semibold text-lg"
-                        onClick={() => toggle("professionalservice")}>
-                        Professional Services <HiArrowRight className="ml-1" /></div>
-                </HoveredLink>
+                <div className="flex flex-row items-center font-semibold text-lg"
+                    onClick={() => toggle("professionalservice")}>
+                    Professional Services <HiArrowRight className="ml-1" />
+                </div>
                 <hr />
                 {isOpenService === "professionalservice" &&
                     <>
                         <HoveredLink href="/services/professional-services/wireless-transformation" onClick={toggleMenu}>Wireless Transformation</HoveredLink>
-                        <HoveredLink href="/services/professional-services/it-asset-disposition" onClick={toggleMenu}>IT Asset Disposition</HoveredLink>
                         <HoveredLink href="/services/professional-services/storage-and-data-migration" onClick={toggleMenu}>Storage & Data Migration</HoveredLink>
                         <HoveredLink href="/services/professional-services/cloud-support" onClick={toggleMenu}>Cloud Support</HoveredLink>
-                        <HoveredLink href="/services/professional-services/imac-services" onClick={toggleMenu}>IMAC Services</HoveredLink>
+                        <HoveredLink href="/services/professional-services/os-support" onClick={toggleMenu}>OS Support</HoveredLink>
                         <HoveredLink href="/services/professional-services/it-deployements" onClick={toggleMenu}>IT Deployments</HoveredLink>
                         <HoveredLink href="/services/professional-services/software-development" onClick={toggleMenu}>Software Development</HoveredLink>
                     </>}
             </div>
-        </div>
+        </div >
     )
 }
 

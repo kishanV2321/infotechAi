@@ -16,25 +16,26 @@ interface TimeLineItem {
 const TimeLine: TimeLineItem[] = [
     {
         Logo: "",
-        Heading: "Leadership",
-        Description: "Fully committed to the success company",
+        Heading: "Expertise",
+        Description: "Dedicated to providing cutting-edge IT solutions.",
     },
     {
         Logo: '',
-        Heading: "Responsibility",
-        Description: "Students will always be our top priority",
+        Heading: "Customer Focus",
+        Description: "Our clients are at the heart of everything we do.",
     },
     {
         Logo: '',
-        Heading: "Flexibility",
-        Description: "The ability to switch is an important skill",
+        Heading: "Innovation",
+        Description: "Continuously evolving to meet emerging tech demands.",
     },
     {
         Logo: '',
-        Heading: "Solve the problem",
-        Description: "Code your way to a solution",
+        Heading: "Collaboration",
+        Description: "Partnering with you for mutual success and growth.",
     },
 ];
+
 
 const OurCommitment: React.FC = () => {
     return (
@@ -43,21 +44,21 @@ const OurCommitment: React.FC = () => {
                 {/* Job that is in Demand - Section 1 */}
                 <div className="lg:mt-20 mb-10 mt-[100px] flex flex-col lg:flex-row justify-between gap-7 lg:gap-0">
                     <div className="text-4xl font-semibold lg:w-[45%]">
-                        Get the skills you need for a{" "}
+                        Empowering Your Organization with Tailored{" "}
                         <span
                             className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB]
             text-transparent bg-clip-text font-bold"
                         >
-                            job that is in demand.
+                            IT Solutions and Support.
                         </span>
                     </div>
-                    <div className="flex flex-col gap-10 lg:w-[40%] items-start">
+                    {/* <div className="flex flex-col gap-10 lg:w-[40%] items-start">
                         <div className="text-[16px]">
                             The modern StudyNotion is the dictates its own terms. Today, to
                             be a competitive specialist requires more than professional
                             skills.
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div>
@@ -90,15 +91,15 @@ const OurCommitment: React.FC = () => {
                                 <div className="flex gap-5 items-center lg:border-r border-caribbeangreen-300 px-4 py-4 lg:px-14 bg-red-400">
                                     <h1 className="text-3xl font-bold w-[75px]">10</h1>
                                     <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
-                                        Years experiences
+                                        Years of Expertise
                                     </h1>
                                 </div>
 
                                 {/* Section 2 */}
                                 <div className="flex gap-5 items-center lg:px-14 px-7 bg-red-400">
-                                    <h1 className="text-3xl font-bold w-[75px]">250</h1>
+                                    <h1 className="text-3xl font-bold w-[75px]">100+</h1>
                                     <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
-                                        types of courses
+                                        clients across Global
                                     </h1>
                                 </div>
                             </div>

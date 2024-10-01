@@ -9,35 +9,40 @@ function SoftwareDevelopment() {
     return (
         <>
             <section className="w-full">
-                <div className="w-full h-[520px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center relative">
+                <div className="w-full h-[420px] bg-[url('https://ik.imagekit.io/kvimages/it-services-images/55295.jpg?updatedAt=1719040473372')] bg-cover bg-no-repeat bg-center relative">
                     {/* Overlay for opacity */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative flex flex-col justify-center items-center h-full">
-                        <div className="flex flex-col items-center mx-auto px-4 pt-6 md:px-8 text-center">
+                        <div className="flex flex-col items-center mx-auto px-4 mt-6 md:px-8 text-center">
                             <h1 className="text-white font-bold text-4xl md:text-6xl leading-tight mb-6">Software Development Service</h1>
-                            <p className="text-white text-lg md:text-2xl mb-6">The Best in Software Development Service.</p>
-                            <div className='w-fit'>
+                            <p className="text-white text-lg md:text-2xl mb-6">Your Vision, Our Code</p>
+                            {/* <div className='w-fit'>
                                 <Button active={true} linkto={"/"}>Learn More</Button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
             </section>
 
 
-            <div className='bg-slate-900 flex flex-col items-center gap-10 lg:flex-row justify-center text-white'>
-                <div className="my-24 flex w-[90%] lg:w-[70%] flex-col gap-10">
-                    <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent text-center pb-4">
-                        Cloud Support and Service
-                    </h1>
-                    <p className="text-base md:text-lg font-medium text-center">
-                        Since 1991, Park Place Technologies has provided exceptional global service and support for data center storage hardware for OEMs like EMC, Hitachi, and NetApp. Your equipments uptime is our top priority. That is why we offer flexible service level agreements to meet your organizations storage lifecycle management needs as well as live, global call centers available 24 hours a day, 7 days a week.
-                    </p>
-                    <p className="text-base md:text-lg font-medium text-center">
-                        Imagine a future where IT infrastructures can monitor themselves, predict and respond to future business needs, and protect and heal themselves. Our Cloud Support and Service for Azure, AWS, and GCP empowers your business with cutting-edge cloud technology and expert guidance.
-                    </p>
+            <section className='bg-slate-900'>
+                <div className='mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white'>
+                    <div className="flex flex-col items-center gap-10 lg:flex-row justify-between">
+                        <div className='my-24 flex lg:w-[50%] flex-col gap-10'>
+                            <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[70%]">
+                                Get Unique Customized Solutions With Our Custom Software Developemnt Company
+                            </h1>
+                            <p className="text-base font-medium lg:w-[95%]">
+                                At Info Tech AI, we specialize in delivering customized software solutions that align perfectly with your unique business identity. As a leading provider of custom software services, we offer a comprehensive range of solutions designed to meet your specific needs and business objectives. Our dedicated team of skilled software developers is equipped to assist you throughout your project, ensuring that the latest technological advancements are integrated seamlessly into your software.
+                            </p>
+                            <p className="text-base font-medium lg:w-[95%]">
+                                Customization is key to establishing a distinct business identity and fostering user loyalty. By opting for custom software development, you gain multiple advantages, including increased flexibility and enhanced functionality tailored to your operations. At Info Tech AI, we take the time to understand your unique requirements, enabling us to provide top-tier customized solutions across various business domains. Our commitment to leveraging the latest technological stack ensures that you receive innovative solutions that propel your business forward.
+                            </p>
+                            <p className="text-base font-medium lg:w-[95%]">As one of the top custom software development companies, we pride ourselves on our ability to listen carefully to your needs and gather in-depth information to deliver tailored solutions. Our specialized approach not only ensures that we meet your business requirements but also helps you save costs through improved integration and greater ownership and control. With Info Tech AI, you can trust that our expertise and dedication will translate into software solutions that empower your business and drive success in an ever-evolving digital landscape.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
 
             <div>
                 <HowWeDevelop />

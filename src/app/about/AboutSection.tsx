@@ -11,23 +11,20 @@ const AboutSection: React.FC = () => {
     return (
         <div className="w-full">
             <section className="bg-[#2c333f] py-12">
-                <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
+                <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-6 text-center text-white">
                     <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
                         <h2 className="text-center text-4xl font-semibold tracking-[-0.72px]">
-                            Driving Innovation in Online Education for a{" "}
+                            Empowering Digital Transformation Through{" "}
                             <span className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text font-bold">
-                                Brighter Future
+                                Innovative IT Solutions
                             </span>
                         </h2>
                         <p className="mx-auto mt-4 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-                            Studynotion is at the forefront of driving innovation in online
-                            education.  We&apos;re passionate about creating a brighter future by
-                            offering cutting-edge courses, leveraging emerging technologies,
-                            and nurturing a vibrant learning community.
+                            Info Tech AI is dedicated to empowering businesses through innovative IT solutions. We are passionate about transforming your digital landscape by providing expert services in cloud support, datacenter management, and OS support. Our commitment to excellence ensures that you can achieve your goals with the latest technologies while optimizing performance and security across your infrastructure.
                         </p>
                     </header>
                     <div className="sm:h-[70px] lg:h-[150px]"></div>
-                    <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[30%] grid-cols-3 gap-3 lg:gap-5">
+                    <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[50%] grid-cols-3 gap-3 lg:gap-5">
                         <img src="https://ik.imagekit.io/kvimages/cardimages/b12.jpg?updatedAt=1704467490856" alt="Banner 1" />
                         <img src="https://ik.imagekit.io/kvimages/cardimages/b11.jpg?updatedAt=1704467490993" alt="Banner 2" />
                         <img src="https://ik.imagekit.io/kvimages/cardimages/b15.jpg?updatedAt=1704467491337" alt="Banner 3" />
@@ -50,20 +47,10 @@ const AboutSection: React.FC = () => {
                                 Our Founding Story
                             </h1>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                                Our e-learning platform was born out of a shared vision and
-                                passion for transforming education. It all began with a group of
-                                educators, technologists, and lifelong learners who recognized
-                                the need for accessible, flexible, and high-quality learning
-                                opportunities in a rapidly evolving digital world.
+                                Our journey at Info Tech AI began with a shared vision and passion for empowering businesses through cutting-edge IT solutions. It started with a group of technology enthusiasts, engineers, and industry experts who recognized the challenges organizations faced in managing their IT infrastructure in an ever-evolving digital landscape.
                             </p>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                                As experienced educators ourselves, we witnessed firsthand the
-                                limitations and challenges of traditional education systems. We
-                                believed that education should not be confined to the walls of a
-                                classroom or restricted by geographical boundaries. We
-                                envisioned a platform that could bridge these gaps and empower
-                                individuals from all walks of life to unlock their full
-                                potential.
+                                Having worked in various sectors, we understood the complexities and limitations of traditional IT support. We believed that businesses should not struggle with fragmented solutions or face downtime that hampers growth. Our vision was to create a comprehensive platform that provides seamless integration, exceptional support, and innovative services, enabling businesses to thrive in a competitive environment and maximize their potential.
                             </p>
                         </div>
 
@@ -83,12 +70,7 @@ const AboutSection: React.FC = () => {
                                 Our Vision
                             </h1>
                             <p className="text-base font-medium text-white lg:w-[95%]">
-                                With this vision in mind, we set out on a journey to create an
-                                e-learning platform that would revolutionize the way people
-                                learn. Our team of dedicated experts worked tirelessly to
-                                develop a robust and intuitive platform that combines
-                                cutting-edge technology with engaging content, fostering a
-                                dynamic and interactive learning experience.
+                                With this vision in mind, we embarked on a journey to empower businesses through innovative IT solutions. Our dedicated team of experts works tirelessly to deliver robust and reliable services that combine advanced technology with personalized support, ensuring seamless integration and optimization of IT infrastructure. We aim to foster a secure and efficient digital environment where organizations can thrive and adapt to the ever-changing landscape of the digital world.
                             </p>
                         </div>
                         <div className="my-24 flex lg:w-[40%] flex-col gap-10">
@@ -96,12 +78,7 @@ const AboutSection: React.FC = () => {
                                 Our Mission
                             </h1>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                                Our mission goes beyond just delivering courses online. We
-                                wanted to create a vibrant community of learners, where
-                                individuals can connect, collaborate, and learn from one
-                                another. We believe that knowledge thrives in an environment of
-                                sharing and dialogue, and we foster this spirit of collaboration
-                                through forums, live sessions, and networking opportunities.
+                            Our mission extends beyond providing exceptional IT solutions; we aim to build lasting partnerships with businesses. We are committed to creating a supportive environment where organizations can leverage our expertise to optimize their IT infrastructure. We believe that success is achieved through collaboration and innovation, and we foster this spirit by offering tailored solutions, proactive support, and continuous improvement initiatives that empower our clients to excel in their digital transformation journey.
                             </p>
                         </div>
                     </div>
@@ -110,7 +87,7 @@ const AboutSection: React.FC = () => {
 
             <section className="mx-auto mt-20 flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white">
                 <OurProcess />
-                
+
             </section>
         </div>
     );

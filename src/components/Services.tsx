@@ -3,6 +3,7 @@ import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
 import serviceData from "../data/services.json"
 import Link from "next/link";
+import { IoIosArrowForward } from "react-icons/io";
 
 //define types in typescript
 // interface Service{
@@ -19,7 +20,7 @@ import Link from "next/link";
 function Services() {
 
     return (
-        <div className="py-12 bg-gray-900">
+        <div className="py-12 bg-black">
             <div>
                 <div className="text-center">
                     <h2 className="text-lg md:text-2xl text-teal-600 font-semibold tracking-wide uppercase">Services</h2>
@@ -37,6 +38,7 @@ function Services() {
                                         <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                                             <p className="text-lg sm:text-xl text-white mt-4 mb-2 ">{service.title}</p>
                                             <p className="text-sm text-neutral-200 flex-grow">{service.description}</p>
+                                            <div className="flex justify-center items-center w-full text-xs pt-2 "><IoIosArrowForward /> Learn More</div>
                                         </div>
                                     </Link>
                                 </div>

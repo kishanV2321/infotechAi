@@ -15,44 +15,45 @@ interface OurProcessGridItem {
 const OurProcessGridArray: OurProcessGridItem[] = [
     {
         order: -1,
-        heading: "World-Class Learning for",
-        highlightText: "Anyone, Anywhere",
+        heading: "Comprehensive IT Solutions for",
+        highlightText: "Businesses of All Sizes",
         description:
-            "Studynotion partners with more than 275+ leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.",
-        BtnText: "Learn More",
-        BtnLink: "/",
+            "We collaborate with leading enterprises to deliver scalable, secure, and innovative IT solutions tailored to your organization’s needs.",
+        BtnText: "Discover More",
+        BtnLink: "/contact",
     },
     {
         order: 1,
-        heading: "Curriculum Based on Industry Needs",
+        heading: "Tailored Support Services",
         description:
-            "Save time and money! The Belajar curriculum is made to be easier to understand and in line with industry needs.",
+            "Our support services are customized to meet the unique requirements of your IT infrastructure, ensuring optimal performance and reliability.",
     },
     {
         order: 2,
-        heading: "Our Learning Methods",
+        heading: "Proactive Monitoring & Maintenance",
         description:
-            "Studynotion partners with more than 275+ leading universities and companies to bring",
+            "We implement state-of-the-art monitoring tools to proactively address potential issues, minimizing downtime and maximizing efficiency.",
     },
     {
         order: 3,
-        heading: "Certification",
+        heading: "Expert Consultation",
         description:
-            "Studynotion partners with more than 275+ leading universities and companies to bring",
+            "Our team of experienced consultants works closely with your organization to identify challenges and provide strategic solutions for your IT landscape.",
     },
     {
         order: 4,
-        heading: `Rating "Auto-grading"`,
+        heading: "Robust Security Solutions",
         description:
-            "Studynotion partners with more than 275+ leading universities and companies to bring",
+            "We prioritize your security with comprehensive solutions designed to safeguard your data and protect against evolving cyber threats.",
     },
     {
         order: 5,
-        heading: "Ready to Work",
+        heading: "Seamless Cloud Integration",
         description:
-            "Studynotion partners with more than 275+ leading universities and companies to bring",
+            "We help you transition smoothly to the cloud, ensuring your infrastructure is agile, scalable, and aligned with your business goals.",
     },
 ];
+
 
 const OurProcess: React.FC = () => {
     return (

@@ -10,7 +10,7 @@ const Testimonials: React.FC = () => {
             <section id="testimonials" aria-label="What our customers are saying" className="bg-gradient-to-r from-indigo-800 via-purple-800 to-black py-20 sm:py-32">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl md:text-center">
-                        <h2 className="font-display font-bold tracking-tight text-4xl  text-white sm:text-4xl">What Our Customers Are Saying</h2>
+                        <h2 className="font-display font-bold tracking-tight text-4xl  text-white sm:text-4xl text-center">Customer Testimonials</h2>
                     </div>
                     <ul role="list"
                         className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
@@ -25,8 +25,7 @@ const Testimonials: React.FC = () => {
                                             </path>
                                         </svg>
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">I love the fitness apparel and gear I purchased from
-                                                this site. The quality is exceptional and the prices are unbeatable.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">The IT support team was incredibly responsive and resolved our issues quickly, ensuring minimal downtime for our operations. Highly recommend!</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>
@@ -57,8 +56,7 @@ const Testimonials: React.FC = () => {
                                         </path>
                                     </svg>
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">As a professional athlete, I rely on high-performance
-                                                gear for my training. This site offers a great selection of top-notch products.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">Exceptional service! They took the time to understand our needs and provided tailored solutions that significantly improved our IT infrastructure.</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>
@@ -89,8 +87,7 @@ const Testimonials: React.FC = () => {
                                         </path>
                                     </svg>
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">The fitness apparel I bought here fits perfectly and
-                                                feels amazing. I highly recommend this store to anyone looking for quality gear.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">Outstanding support throughout the process! Their expertise and dedication made our transition smooth and stress-free. Truly a reliable partner!</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>

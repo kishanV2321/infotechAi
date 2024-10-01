@@ -15,7 +15,7 @@
         {
             "id": 2,
             "title": "OS Support and Service",
-            "slug": "os-support",
+            "slug": "professional-services/os-support",
             "description": "Unlock the full potential of your operating systems with our specialized Linux, Windows, and database (Oracle, MS SQL) support services. Our tailored solutions guarantee optimal performance and robust security.",
             "price": 109.99,
             "instructor": "Jane Smith",
@@ -35,7 +35,7 @@
         {
             "id": 4,
             "title": "Cloud Support and Service",
-            "slug": "cloud-support-service",
+            "slug": "professional-services/cloud-support",
             "description": "Imagine a future where IT infrastructures can monitor themselves, predict and respond to future business needs, and protect and heal themselves. Our Cloud Support and Service for Azure, AWS, and GCP empowers your business with cutting-edge cloud technology and expert guidance.",
             "price": 129.99,
             "instructor": "Mike Brown",
@@ -45,7 +45,7 @@
         {
             "id": 5,
             "title": "IT Infrastructure Training",
-            "slug": "it-infra-training",
+            "slug": "infrastructure-services/it-infra-training",
             "description": "Empower your team with our comprehensive training programs in Linux, Windows, hardware, network, database, and cloud technologies. Stay ahead of the curve with the skills and knowledge to excel in today’s dynamic IT environment.",
             "price": 139.99,
             "instructor": "Chris Davis",
@@ -55,7 +55,7 @@
         {
             "id": 6,
             "title": "Software Development",
-            "slug": "software-development-service",
+            "slug": "professional-services/software-development",
             "description": "Transform your ideas into reality with our custom software development services. From website design to mobile apps and ERP software, we create innovative solutions that drive your business forward.",
             "price": 149.99,
             "instructor": "Alex Wilson",

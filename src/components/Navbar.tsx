@@ -101,9 +101,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                                                         </HoveredLink>
                                                         <hr />
                                                         <HoveredLink href="/services/infrastructure-services/hardware-monitoring">Hardware Monitoring</HoveredLink>
-                                                        <HoveredLink href="/services/infrastructure-services/base-level-support">Base Level Support</HoveredLink>
-                                                        <HoveredLink href="/services/infrastructure-services/plus-level-support">Plus Level Support</HoveredLink>
-                                                        <HoveredLink href="/services/infrastructure-services/full-level-support">Full Level Support</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">IT Infrastructure Training</HoveredLink>
                                                         <HoveredLink href="/services/infrastructure-services/vmware-technical-support">VMware Technical Support</HoveredLink>
                                                     </div>
 
@@ -115,10 +113,9 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                                                         </HoveredLink>
                                                         <hr />
                                                         <HoveredLink href="/services/professional-services/wireless-transformation">Wireless Transformation</HoveredLink>
-                                                        <HoveredLink href="/services/professional-services/it-asset-disposition">IT Asset Disposition</HoveredLink>
                                                         <HoveredLink href="/services/professional-services/storage-and-data-migration">Storage & Data Migration</HoveredLink>
                                                         <HoveredLink href="/services/professional-services/cloud-support">Cloud Support</HoveredLink>
-                                                        <HoveredLink href="/services/professional-services/imac-services">IMAC Services</HoveredLink>
+                                                        <HoveredLink href="/services/professional-services/os-support">OS Support</HoveredLink>
                                                         <HoveredLink href="/services/professional-services/it-deployements">IT Deployments</HoveredLink>
                                                         <HoveredLink href="/services/professional-services/software-development">Software Development</HoveredLink>
                                                     </div>
