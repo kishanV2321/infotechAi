@@ -26,7 +26,7 @@ const AboutSection: React.FC = () => {
                     </header>
                     <div className="sm:h-[70px] lg:h-[150px]"></div>
                     <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[50%] grid-cols-3 gap-3 lg:gap-5">
-                        <div className="relative w-full h-[300px]">
+                        <div className="relative w-full h-[100px] md:h-[300px]">
                             <Image
                                 src="https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/software_development_service_4fb6b0e7-5b58-41d6-8457-7a00d82c30db.png?updatedAt=1727778920538"
                                 alt="Banner 1"
@@ -34,7 +34,7 @@ const AboutSection: React.FC = () => {
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative w-full h-[300px]">
+                        <div className="relative w-full h-[100px] md:h-[300px]">
                             <Image
                                 src="https://ik.imagekit.io/kvimages/Infotech-Ai/cloud-6515064_1280.jpg?updatedAt=1727778861807"
                                 alt="Banner 2"
@@ -42,7 +42,7 @@ const AboutSection: React.FC = () => {
                                 objectFit="cover"
                             />
                         </div>
-                        <div className="relative w-full h-[300px]">
+                        <div className="relative w-full h-[100px] md:h-[300px]">
                             <Image
                                 src="https://ik.imagekit.io/kvimages/Infotech-Ai/Aigenerated/storage,server,_network_maintenanace_c1d7627e-1f9b-4f3c-8928-1154ca10f7ad.png?updatedAt=1727778920724"
                                 alt="Banner 3"
