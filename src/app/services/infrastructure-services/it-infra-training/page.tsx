@@ -27,9 +27,9 @@ function HarewareMonitoring() {
 
             <section className='bg-slate-900'>
                 <div className='mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white'>
-                    <div className="flex flex-col items-center gap-10 lg:flex-row justify-between">
-                        <div className='my-24 flex lg:w-[50%] flex-col gap-10'>
-                            <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[70%]">
+                    <div className="flex flex-col items-center gap-10 lg:flex-row justify-between lg:justify-center">
+                        <div className='my-24 flex lg:w-[80%] flex-col gap-10'>
+                            <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[80%]">
                                 Empower Your Team with Comprehensive Knowledge and Skills for a Robust IT Environment
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">

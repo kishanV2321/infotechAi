@@ -28,12 +28,12 @@ function ITinfraSupportAndService() {
 
             <section className='bg-slate-900'>
                 <div className='mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white'>
-                    <div className="flex flex-col items-center gap-10 lg:flex-row justify-between">
-                        <div className='my-24 flex lg:w-[50%] flex-col gap-10'>
-                            <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[70%]">
+                    <div className="flex flex-col items-center gap-10 lg:flex-row justify-between lg:justify-center">
+                        <div className='my-24 flex lg:w-[80%] flex-col gap-10'>
+                            <h1 className="bg-gradient-to-br from-[#833AB4] via-[#1dbefd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent lg:w-[80%]">
                                 Your Trusted Partner for IT Infrastructure Support and Maintenance.
                             </h1>
-                            <p className="text-base font-medium lg:w-[95%]">
+                            <p className="text-base font-medium lg:w-[95%] ">
                                 Revolutionize your IT landscape with Info Tech AI&apos;s comprehensive IT infrastructure support services. We provide all-encompassing solutions for your hardware, software, network, storage, firewall, and backup needs, ensuring seamless integration and unmatched reliability. Our expert team is dedicated to keeping your business running smoothly by providing end-to-end support for traditional on-premise setups, cloud-based environments, edge computing, and software-defined infrastructures (SDI). No matter how complex your IT environment, our infrastructure support services are tailored to meet the unique demands of your business, ensuring optimal performance and security.
                             </p>
                             <p className="text-base font-medium lg:w-[95%]">
