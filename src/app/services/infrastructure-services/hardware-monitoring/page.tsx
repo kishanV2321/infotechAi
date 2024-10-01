@@ -33,10 +33,10 @@ function HarewareMonitoring() {
                                 Maximize Your Uptime with Data Center Hardware Monitoring
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">
-                                Maximize Your Uptime with Info Tech AI's Hardware Monitoring™. Our innovative monitoring solution is designed to provide comprehensive oversight of your data center's hardware, ensuring that you maintain optimal performance at all times. With our fully automated maintenance service, we streamline the hardware support process, allowing data centers to enhance uptime and operational efficiency like never before.
+                                Maximize Your Uptime with Info Tech AI&apos;s Hardware Monitoring™. Our innovative monitoring solution is designed to provide comprehensive oversight of your data center&apos;s hardware, ensuring that you maintain optimal performance at all times. With our fully automated maintenance service, we streamline the hardware support process, allowing data centers to enhance uptime and operational efficiency like never before.
                             </p>
                             <p className="text-base font-medium lg:w-[95%]">
-                                Info Tech AI's Hardware Monitoring™ proactively identifies hardware events, automatically opens incident tickets, and triages issues as they arise. Once an event is detected, our skilled engineers are dispatched immediately to your data center to resolve the issue promptly. This proactive approach minimizes downtime and ensures that your data center remains fully operational, providing you with peace of mind and allowing you to focus on your core business objectives. With Info Tech AI, you can trust that your hardware is continuously monitored and expertly managed.
+                                Info Tech AI&apos;s Hardware Monitoring™ proactively identifies hardware events, automatically opens incident tickets, and triages issues as they arise. Once an event is detected, our skilled engineers are dispatched immediately to your data center to resolve the issue promptly. This proactive approach minimizes downtime and ensures that your data center remains fully operational, providing you with peace of mind and allowing you to focus on your core business objectives. With Info Tech AI, you can trust that your hardware is continuously monitored and expertly managed.
                             </p>
                         </div>
                     </div>

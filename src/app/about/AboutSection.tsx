@@ -4,6 +4,7 @@ import React from "react";
 // import BannerImage3 from "../../../assets/Images/aboutus3.webp";
 import Quote from "./Quote";
 import OurProcess from "./OurProcess";
+import Image from "next/image";
 // import FoundingStory from "../../../assets/Images/FoundingStory.png";
 
 
@@ -25,9 +26,24 @@ const AboutSection: React.FC = () => {
                     </header>
                     <div className="sm:h-[70px] lg:h-[150px]"></div>
                     <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[50%] grid-cols-3 gap-3 lg:gap-5">
-                        <img src="https://ik.imagekit.io/kvimages/cardimages/b12.jpg?updatedAt=1704467490856" alt="Banner 1" />
-                        <img src="https://ik.imagekit.io/kvimages/cardimages/b11.jpg?updatedAt=1704467490993" alt="Banner 2" />
-                        <img src="https://ik.imagekit.io/kvimages/cardimages/b15.jpg?updatedAt=1704467491337" alt="Banner 3" />
+                        <Image
+                            src="https://ik.imagekit.io/kvimages/cardimages/b12.jpg?updatedAt=1704467490856"
+                            alt="Banner 1"
+                            width={500} // Set an appropriate width
+                            height={300} // Set an appropriate height
+                        />
+                        <Image
+                            src="https://ik.imagekit.io/kvimages/cardimages/b11.jpg?updatedAt=1704467490993"
+                            alt="Banner 2"
+                            width={500} // Set an appropriate width
+                            height={300} // Set an appropriate height
+                        />
+                        <Image
+                            src="https://ik.imagekit.io/kvimages/cardimages/b15.jpg?updatedAt=1704467491337"
+                            alt="Banner 3"
+                            width={500} // Set an appropriate width
+                            height={300} // Set an appropriate height
+                        />
                     </div>
                 </div>
             </section>
@@ -78,7 +94,7 @@ const AboutSection: React.FC = () => {
                                 Our Mission
                             </h1>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                            Our mission extends beyond providing exceptional IT solutions; we aim to build lasting partnerships with businesses. We are committed to creating a supportive environment where organizations can leverage our expertise to optimize their IT infrastructure. We believe that success is achieved through collaboration and innovation, and we foster this spirit by offering tailored solutions, proactive support, and continuous improvement initiatives that empower our clients to excel in their digital transformation journey.
+                                Our mission extends beyond providing exceptional IT solutions; we aim to build lasting partnerships with businesses. We are committed to creating a supportive environment where organizations can leverage our expertise to optimize their IT infrastructure. We believe that success is achieved through collaboration and innovation, and we foster this spirit by offering tailored solutions, proactive support, and continuous improvement initiatives that empower our clients to excel in their digital transformation journey.
                             </p>
                         </div>
                     </div>
