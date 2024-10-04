@@ -29,7 +29,7 @@ const Testimonials: React.FC = () => {
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Sheryl Berge</div>
+                                                <div className="font-display text-base text-slate-900">Akums</div>
                                             </div>
                                             <div className="overflow-hidden rounded-full bg-slate-50">
                                                 <Image
@@ -60,7 +60,7 @@ const Testimonials: React.FC = () => {
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Leland Kiehn</div>
+                                                <div className="font-display text-base text-slate-900">NSTPL</div>
                                             </div>
                                             <div className="overflow-hidden rounded-full bg-slate-400">
                                                 <Image
@@ -91,7 +91,7 @@ const Testimonials: React.FC = () => {
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-400 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Peter Renolds</div>
+                                                <div className="font-display text-base text-slate-900">SIYA</div>
                                             </div>
                                             <div className="overflow-hidden rounded-full bg-slate-50">
                                                 <Image

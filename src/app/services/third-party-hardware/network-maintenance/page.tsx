@@ -33,10 +33,10 @@ function NetworkMaintenance() {
                                 Network Maintenance
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">
-                                At Info Tech AI, we specialize in delivering top-tier support and maintenance for your network hardware, ensuring seamless connectivity and performance across your organization. Whether it&apos;s your wireless access point, fiber channel switch, firewall appliance, or any other critical network component that has reached the end of its initial warranty, our expert team is here to provide world-class optimization and support services.
+                                At Digital4India, we specialize in delivering top-tier support and maintenance for your network hardware, ensuring seamless connectivity and performance across your organization. Whether it&apos;s your wireless access point, fiber channel switch, firewall appliance, or any other critical network component that has reached the end of its initial warranty, our expert team is here to provide world-class optimization and support services.
                             </p>
                             <p className="text-base font-medium lg:w-[95%]">
-                                Our cost-effective network equipment maintenance services not only enhance the reliability of your infrastructure but also help you consolidate support across various OEMs. By choosing Info Tech AI, you can potentially save 30-40% on your network maintenance costs while ensuring that your systems are always running at their best. Let us handle the complexities of your network hardware support, so you can focus on what matters most: driving your business forward.
+                                Our cost-effective network equipment maintenance services not only enhance the reliability of your infrastructure but also help you consolidate support across various OEMs. By choosing Digital4India, you can potentially save 30-40% on your network maintenance costs while ensuring that your systems are always running at their best. Let us handle the complexities of your network hardware support, so you can focus on what matters most: driving your business forward.
                             </p>
                         </div>
                     </div>

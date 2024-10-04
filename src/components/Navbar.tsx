@@ -25,8 +25,8 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
             <div className="bg-black fixed w-full z-50 top-0 start-0 border-b border-x-current">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <Image src="/docs/images/logo.svg" alt="Info TechAi" width={32} height={32} className="h-8" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Info TechAi</span>
+                        <Image src="https://ik.imagekit.io/kvimages/Logos/DIGITAL4INDIANITLOGOs.jpg?updatedAt=1727953383850" alt="Info TechAi" width={50} height={42} className="h-8" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Digtal4India</span>
                     </Link>
                     <div className="flex md:order-2 space-x-3 sm:space-x-6 rtl:space-x-reverse">
                         <Button active={true} linkto={"/contact"}>

@@ -33,10 +33,10 @@ function ServerMaintenance() {
                                 Server Maintenance
                             </h1>
                             <p className="text-base font-medium lg:w-[95%]">
-                                At Info Tech AI, our server maintenance contracts are designed to provide the comprehensive support you need to ensure your server equipment operates efficiently and reliably. We understand that your servers are the backbone of your IT infrastructure, which is why we offer tailored maintenance solutions that prioritize performance and uptime. Our expert team is dedicated to monitoring and maintaining your server systems, addressing potential issues before they impact your business.
+                                At Digital4India, our server maintenance contracts are designed to provide the comprehensive support you need to ensure your server equipment operates efficiently and reliably. We understand that your servers are the backbone of your IT infrastructure, which is why we offer tailored maintenance solutions that prioritize performance and uptime. Our expert team is dedicated to monitoring and maintaining your server systems, addressing potential issues before they impact your business.
                             </p>
                             <p className="text-base font-medium lg:w-[95%]">
-                                In addition to standard server maintenance, we also offer third-party support and both basic and enhanced operating system (OS) support services for a range of select operating systems. This means you can count on us to provide the necessary attention and expertise to keep your servers running smoothly, allowing you to focus on your core business operations with confidence. With Info Tech AI, you can rest assured that your server hardware is in capable hands.
+                                In addition to standard server maintenance, we also offer third-party support and both basic and enhanced operating system (OS) support services for a range of select operating systems. This means you can count on us to provide the necessary attention and expertise to keep your servers running smoothly, allowing you to focus on your core business operations with confidence. With Digital4India, you can rest assured that your server hardware is in capable hands.
                             </p>
                         </div>
                     </div>

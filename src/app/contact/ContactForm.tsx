@@ -29,7 +29,6 @@ function ContactForm() {
             const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string;
             const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string;
 
-
             if (formRef.current) {
                 await emailjs.sendForm(
                     serviceId,

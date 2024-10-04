@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
                             </span>
                         </h2>
                         <p className="mx-auto mt-4 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-                            Info Tech AI is dedicated to empowering businesses through innovative IT solutions. We are passionate about transforming your digital landscape by providing expert services in cloud support, datacenter management, and OS support. Our commitment to excellence ensures that you can achieve your goals with the latest technologies while optimizing performance and security across your infrastructure.
+                            Digital4India is dedicated to empowering businesses through innovative IT solutions. We are passionate about transforming your digital landscape by providing expert services in cloud support, datacenter management, and OS support. Our commitment to excellence ensures that you can achieve your goals with the latest technologies while optimizing performance and security across your infrastructure.
                         </p>
                     </header>
                     <div className="sm:h-[70px] lg:h-[150px]"></div>
@@ -69,7 +69,7 @@ const AboutSection: React.FC = () => {
                                 Our Founding Story
                             </h1>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                                Our journey at Info Tech AI began with a shared vision and passion for empowering businesses through cutting-edge IT solutions. It started with a group of technology enthusiasts, engineers, and industry experts who recognized the challenges organizations faced in managing their IT infrastructure in an ever-evolving digital landscape.
+                                Our journey at Digital4India began with a shared vision and passion for empowering businesses through cutting-edge IT solutions. It started with a group of technology enthusiasts, engineers, and industry experts who recognized the challenges organizations faced in managing their IT infrastructure in an ever-evolving digital landscape.
                             </p>
                             <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
                                 Having worked in various sectors, we understood the complexities and limitations of traditional IT support. We believed that businesses should not struggle with fragmented solutions or face downtime that hampers growth. Our vision was to create a comprehensive platform that provides seamless integration, exceptional support, and innovative services, enabling businesses to thrive in a competitive environment and maximize their potential.

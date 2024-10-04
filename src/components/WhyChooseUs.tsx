@@ -11,10 +11,10 @@ const content = [
         content: (
             <div className="h-full w-full flex items-center justify-center text-white">
                 <Image
-                    src="https://ik.imagekit.io/kvimages/TechService/ill-comprehensiveIT.webp?updatedAt=1716978587720"
+                    src="https://ik.imagekit.io/kvimages/Infotech-Ai/young-business-engineer-with-tablet-medium-shot.jpg?updatedAt=1727778868406"
                     width={300}
                     height={300}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-cover"
                     alt="comprehensive IT solutions"
                 />
             </div>
@@ -27,10 +27,10 @@ const content = [
         content: (
             <div className="h-full w-full flex items-center justify-center text-white">
                 <Image
-                    src="https://ik.imagekit.io/kvimages/TechService/ill-expertTeam.webp?updatedAt=1716978587470"
+                    src="https://ik.imagekit.io/kvimages/cardimages/b1.jpg?updatedAt=1704467488216"
                     width={300}
                     height={300}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-cover"
                     alt="expert IT team"
                 />
             </div>
@@ -43,10 +43,10 @@ const content = [
         content: (
             <div className="h-full w-full flex items-center justify-center text-white">
                 <Image
-                    src="https://ik.imagekit.io/kvimages/TechService/ill-proactiveMonitoring.webp?updatedAt=1716978587554"
+                    src="https://ik.imagekit.io/kvimages/Infotech-Ai/istockphoto-147456329-1024x1024.jpg?updatedAt=1727778861629"
                     width={300}
                     height={300}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-cover"
                     alt="proactive IT monitoring"
                 />
             </div>
@@ -59,10 +59,10 @@ const content = [
         content: (
             <div className="h-full w-full flex items-center justify-center text-white">
                 <Image
-                    src="https://ik.imagekit.io/kvimages/TechService/ill-customizedSolutions.webp?updatedAt=1716978587554"
+                    src="https://ik.imagekit.io/kvimages/Background%20Img/TechWorld?updatedAt=1709187961444"
                     width={300}
                     height={300}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-cover"
                     alt="customized IT solutions"
                 />
             </div>
