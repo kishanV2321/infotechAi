@@ -5,17 +5,17 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 const instructors = [
     {
       id: 1,
-      name: 'Kishan Verma',
+      name: '',
       designation: 'Front-end',
       image:
-        'https://ik.imagekit.io/kvimages/TeamMember/profile%20kv.png?updatedAt=1716986017946',
+        '',
     },
     {
       id: 2,
-      name: 'Abhsihek',
+      name: '',
       designation: 'Java Backend',
       image:
-        'https://ik.imagekit.io/kvimages/TeamMember/kishan.jpg?updatedAt=1716986017541',
+        '',
     },
     {
       id: 3,

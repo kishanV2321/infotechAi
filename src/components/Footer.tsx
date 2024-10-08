@@ -5,7 +5,7 @@ function Footer() {
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
                     <p className="mb-4">
-                        Creating a tech product roadmap and building scalable apps for your organization.
+                    Digital4India is dedicated to empowering businesses through innovative IT solutions.
                     </p>
                 </div>
                 <div>
@@ -13,7 +13,7 @@ function Footer() {
                     <ul>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 Home
@@ -21,7 +21,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/about"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 About
@@ -29,15 +29,15 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 className="hover:text-white transition-colors duration-300"
                             >
-                                Courses
+                                Services
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/contact"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 Contact
@@ -78,8 +78,8 @@ function Footer() {
                     <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
                     <p>New Delhi, India</p>
                     <p>Delhi 10001</p>
-                    <p>Email: info@techAi.com</p>
-                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: digtal4indiait@gmail.com</p>
+                    <p>Phone: +91-7042610160</p>
                 </div>
             </div>
             <p className="text-center text-xs pt-8">© 2024 Digital4India. All rights reserved.</p>

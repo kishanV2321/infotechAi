@@ -1,6 +1,7 @@
 import Image from "next/image";
-// import Img2 from "../images/testimonials/pfp1.jpg";
-// import Img3 from "../images/testimonials/pfp2.jpg";
+import Img1 from "../asset/testinomial/akums_logo.jpeg";
+import Img2 from "../asset/testinomial/nstpl_logo.png";
+import Img3 from "../asset/testinomial/siya_logo.jpeg";
 import React from "react";
 import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 
@@ -36,7 +37,7 @@ const Testimonials: React.FC = () => {
                                                     alt=""
                                                     className="h-14 w-14 object-cover"
                                                     style={{ color: "transparent" }}
-                                                    src="https://randomuser.me/api/portraits/men/15.jpg"
+                                                    src={Img1}
                                                     width={56}  // 14 * 4 (1rem = 16px)
                                                     height={56} // 14 * 4 (1rem = 16px)
                                                 />
@@ -67,7 +68,7 @@ const Testimonials: React.FC = () => {
                                                     alt=""
                                                     className="h-14 w-14 object-cover"
                                                     style={{ color: "transparent" }}
-                                                    src="https://randomuser.me/api/portraits/women/15.jpg"
+                                                    src={Img2}
                                                     width={56}  // 14 * 4 (1rem = 16px)
                                                     height={56} // 14 * 4 (1rem = 16px)
                                                 />
@@ -98,7 +99,7 @@ const Testimonials: React.FC = () => {
                                                     alt=""
                                                     className="h-14 w-14 object-cover"
                                                     style={{ color: "transparent" }}
-                                                    src="https://randomuser.me/api/portraits/men/10.jpg"
+                                                    src={Img3}
                                                     width={56}  // 14 * 4 (1rem = 16px)
                                                     height={56} // 14 * 4 (1rem = 16px)
                                                 />
