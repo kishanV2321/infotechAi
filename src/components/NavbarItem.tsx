@@ -37,14 +37,16 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
 
             <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
                 <div className="flex flex-row items-center font-semibold text-lg" onClick={() => toggle("thirdpartyhardware")}>
-                    Third Party Hardware Maintenance <HiArrowRight className="ml-1" />
+                    Go To Job Courses <HiArrowRight className="ml-1" />
                 </div>
                 <hr />
                 {isOpenService === "thirdpartyhardware" &&
                     <>
-                        <HoveredLink href={"/services/third-party-hardware/storage-maintenance"} onClick={toggleMenu}>Storage Maintenance</HoveredLink>
-                        <HoveredLink href="/services/third-party-hardware/server-maintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
-                        <HoveredLink href="/services/third-party-hardware/network-maintenance" onClick={toggleMenu}>Network Maintenance</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training">DevOps</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Infrastructure</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Linux & Unix</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Networking</HoveredLink>
+                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Windows</HoveredLink>
                     </>}
             </div>
 
@@ -56,7 +58,9 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 {isOpenService === "infrastructuremanage" &&
                     <>
                         <HoveredLink href="/services/infrastructure-services/hardware-monitoring" onClick={toggleMenu}>Hardware Monitoring</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training" onClick={toggleMenu}>IT Infrastructure Training</HoveredLink>
+                        <HoveredLink href={"/services/third-party-hardware/storage-maintenance"} onClick={toggleMenu}>Storage Maintenance</HoveredLink>
+                        <HoveredLink href="/services/third-party-hardware/server-maintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
+                        <HoveredLink href="/services/third-party-hardware/network-maintenance" onClick={toggleMenu}>Network Maintenance</HoveredLink>
                         <HoveredLink href="/services/infrastructure-services/vmware-technical-support" onClick={toggleMenu}>VMware Technical Support</HoveredLink>
                     </>}
             </div>

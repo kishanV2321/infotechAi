@@ -24,7 +24,7 @@ const contactDetails: ContactDetail[] = [
         heading: "Visit us",
         description: "Come and say hello at our office HQ.",
         details:
-            "DLF, Ankur Vihar, Loni-201102",
+            "G1, E53 , SLF VED VIHAR , GHAZIABAD-201102",
     },
     {
         icon: "IoCall",

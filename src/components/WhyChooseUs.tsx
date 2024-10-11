@@ -74,7 +74,7 @@ const content = [
 function WhyChooseUs() {
 
     return (
-        <div className="bg-slate-900">
+        <div className="bg-slate-900 text-white">
             <div className=" bg-gradient-to-br from-[#7e1fbd] via-[#4a56fd] to-[#fc45d4] bg-clip-text text-4xl md:text-6xl font-semibold text-transparent text-center py-12">
                 Why Choose Us
             </div>

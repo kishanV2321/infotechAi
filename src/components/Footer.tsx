@@ -76,8 +76,8 @@ function Footer() {
                 </div>
                 <div>
                     <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-                    <p>New Delhi, India</p>
-                    <p>Delhi 10001</p>
+                    <p>SLF VED VIHAR</p>
+                    <p>GHAZIABAD-201102</p>
                     <p>Email: digtal4indiait@gmail.com</p>
                     <p>Phone: +91-7042610160</p>
                 </div>

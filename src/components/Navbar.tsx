@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ImCross } from "react-icons/im";
 import Button from "./Button";
+import Dig4Ind from "../asset/dig4india_logo.png"
 
 interface NavbarProps {
     isMenuOpen: Boolean;
@@ -24,8 +25,8 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
             <div className="bg-black fixed w-full z-50 top-0 start-0 border-b border-x-current">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <Image src="https://ik.imagekit.io/kvimages/Logos/DIGITAL4INDIANITLOGOs.jpg?updatedAt=1727953383850" alt="Info TechAi" width={50} height={42} className="h-8" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Digtal4India</span>
+                        <Image src={Dig4Ind} alt="Info TechAi" width={60} height={60} className="h-12" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Digital4India</span>
                     </Link>
                     <div className="flex md:order-2 space-x-3 sm:space-x-6 rtl:space-x-reverse">
                         <Button active={true} linkto={"/contact"}>
@@ -79,37 +80,37 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                                         <div className="flex">
                                             <MenuItem setActive={setActive} active={active} item="Services">
                                                 <div className="flex flex-row space-x-8 ">
-                                                    <div className="flex flex-col space-y-4 text-sm">
-                                                        <HoveredLink href={"/services"}>
+                                                    <div className="flex flex-col space-y-4 text-sm text-white">
+                                                        <div className="flex flex-row items-center font-extrabold text-yellow-400">
+                                                            Go to Job Courses<HiArrowRight className="ml-1" /></div>
+                                                        <div className="mt-5"></div>
+                                                        <hr />
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">DevOps</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Infrastructure</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Linux & Unix</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Networking</HoveredLink>
+                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Windows</HoveredLink>
+
+                                                    </div>
+
+                                                    <div className="flex flex-col space-y-4 text-sm text-white">
+                                                        <div>
                                                             <div className="font-extrabold">
-                                                                Third Party Hardware</div>
-                                                            <div className="flex flex-row items-center font-extrabold">
-                                                                Maintenance <HiArrowRight className="ml-1" /></div>
-                                                        </HoveredLink>
+                                                                Infrastructure Managed</div>
+                                                            <div className="flex flex-row items-center font-extrabold">Services <HiArrowRight className="ml-1" /></div>
+                                                        </div>
                                                         <hr />
                                                         <HoveredLink href={"/services/third-party-hardware/storage-maintenance"}>Storage Maintenance</HoveredLink>
                                                         <HoveredLink href="/services/third-party-hardware/server-maintenance">Server Maintenance</HoveredLink>
                                                         <HoveredLink href="/services/third-party-hardware/network-maintenance">Network Maintenance</HoveredLink>
-                                                    </div>
-
-                                                    <div className="flex flex-col space-y-4 text-sm">
-                                                        <HoveredLink href={"/services"}>
-                                                            <div className="font-extrabold">
-                                                                Infrastructure Managed</div>
-                                                            <div className="flex flex-row items-center font-extrabold">Services <HiArrowRight className="ml-1" /></div>
-                                                        </HoveredLink>
-                                                        <hr />
                                                         <HoveredLink href="/services/infrastructure-services/hardware-monitoring">Hardware Monitoring</HoveredLink>
-                                                        <HoveredLink href="/services/infrastructure-services/it-infra-training">IT Infrastructure Training</HoveredLink>
                                                         <HoveredLink href="/services/infrastructure-services/vmware-technical-support">VMware Technical Support</HoveredLink>
                                                     </div>
 
-                                                    <div className="flex flex-col space-y-4 text-sm">
-                                                        <HoveredLink href={"/services"}>
-                                                            <div className="flex flex-row items-center font-extrabold">
-                                                                Professional Services <HiArrowRight className="ml-1" /></div>
-                                                            <div className="mt-5"></div>
-                                                        </HoveredLink>
+                                                    <div className="flex flex-col space-y-4 text-sm text-white">
+                                                        <div className="flex flex-row items-center font-extrabold">
+                                                            Professional Services <HiArrowRight className="ml-1" /></div>
+                                                        <div className="mt-5"></div>
                                                         <hr />
                                                         <HoveredLink href="/services/professional-services/wireless-transformation">Wireless Transformation</HoveredLink>
                                                         <HoveredLink href="/services/professional-services/storage-and-data-migration">Storage & Data Migration</HoveredLink>
