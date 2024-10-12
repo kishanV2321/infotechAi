@@ -216,9 +216,9 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
             </div>
 
 
-            {/* small screen navbar menu page */}
+            {/* small screen navbar menu */}
             {isMenuOpen &&
-                <div className="mt-20>
+                <div className="mt-20" >
                     <NavbarItem toggleMenu={toggleMenu} />
                 </div>
             }
