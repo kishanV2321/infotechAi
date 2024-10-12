@@ -45,7 +45,7 @@
         {
             "id": 5,
             "title": "IT Infrastructure Training",
-            "slug": "infrastructure-services/it-infra-training",
+            "slug": "it-infra-training",
             "description": "Empower your team with our comprehensive training programs in Linux, Windows, hardware, network, database, and cloud technologies. Stay ahead of the curve with the skills and knowledge to excel in today’s dynamic IT environment.",
             "price": 139.99,
             "instructor": "Chris Davis",

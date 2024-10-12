@@ -10,6 +10,79 @@ interface NavbarItemProps {
     toggleMenu: () => void;
 }
 
+const courses = [
+    {
+        title: "DevOps",
+        slug: "/services/courses/devops"
+    },
+    {
+        title: "Infrastructure",
+        slug: "/services/courses/infrastructure"
+    },
+    {
+        title: "Linux & Unix",
+        slug: "/services/courses/linux&unix"
+    },
+    {
+        title: "Networking",
+        slug: "/services/courses/networking"
+    },
+    {
+        title: "Windows",
+        slug: "/services/courses/window"
+    },
+]
+
+const infrastructureServices = [
+    {
+        title: "Storage Maintenanace",
+        slug: "/services/infrastructure-services/storage-maintenance"
+    },
+    {
+        title: "Server Maintenanace",
+        slug: "/services/infrastructure-services/server-maintenance"
+    },
+    {
+        title: "Network Maintenanace",
+        slug: "/services/infrastructure-services/network-maintenance"
+    },
+    {
+        title: "Hardware Monitoring",
+        slug: "/services/infrastructure-services/hardware-monitoring"
+    },
+    {
+        title: "VMware Technical Support",
+        slug: "/services/infrastructure-services/vmware-technical-support"
+    },
+]
+
+const professionalServices = [
+    {
+        title: "Wireless Transformation",
+        slug: "/services/professional-services/wireless-transformation"
+    },
+    {
+        title: "Storage & Data Migration",
+        slug: "/services/professional-services/storage-and-data-migration"
+    },
+    {
+        title: "Cloud Support",
+        slug: "/services/professional-services/cloud-support"
+    },
+    {
+        title: "OS Support",
+        slug: "/services/professional-services/os-support"
+    },
+    {
+        title: "IT Deployments",
+        slug: "/services/professional-services/it-deployments"
+    },
+    {
+        title: "Software Development",
+        slug: "/services/professional-services/software-development"
+    },
+]
+
 function NavbarItem({ toggleMenu }: NavbarItemProps) {
     const [isOpenService, setOpenService] = useState<string | null>(null);
 
@@ -19,8 +92,8 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
 
 
     return (
-        <div className='w-screen lg:w-3/12 h-screen overflow-y-scroll z-20 bg-black p-4 mt-4 text-white'>
-            <div className='flex flex-col space-y-3 mt-14 ml-4'>
+        <div className='w-screen abs lg:w-3/12 h-screen z-20 bg-black p-4 text-white'>
+            <div className='flex flex-col space-y-3'>
                 <HoveredLink href={"/"} onClick={toggleMenu}>
                     <h2 className="text-lg text-teal-600 font-semibold tracking-wide uppercase">Home</h2>
                 </HoveredLink>
@@ -35,37 +108,42 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
             </div>
 
-            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
-                <div className="flex flex-row items-center font-semibold text-lg" onClick={() => toggle("thirdpartyhardware")}>
+            <div className="flex flex-col space-y-3 mt-4 text-base">
+                <div className="flex flex-row items-center font-semibold text-lg text-yellow-300" onClick={() => toggle("thirdpartyhardware")}>
                     Go To Job Courses <HiArrowRight className="ml-1" />
                 </div>
                 <hr />
                 {isOpenService === "thirdpartyhardware" &&
                     <>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training">DevOps</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Infrastructure</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Linux & Unix</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Networking</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/it-infra-training">Windows</HoveredLink>
-                    </>}
+                        {courses.map((course, index) => (
+                            <div key={index}>
+                                <HoveredLink onClick={toggleMenu} href={course.slug}>
+                                    {course.title}
+                                </HoveredLink>
+                            </div>
+                        ))}
+                    </>
+                }
             </div>
 
-            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
+            <div className="flex flex-col space-y-3 mt-4 text-base">
                 <div className="flex flex-row items-center font-semibold text-lg"
                     onClick={() => toggle("infrastructuremanage")}>
                     Infrastructure Managed Services <HiArrowRight className="ml-1" /></div>
                 <hr />
                 {isOpenService === "infrastructuremanage" &&
                     <>
-                        <HoveredLink href="/services/infrastructure-services/hardware-monitoring" onClick={toggleMenu}>Hardware Monitoring</HoveredLink>
-                        <HoveredLink href={"/services/third-party-hardware/storage-maintenance"} onClick={toggleMenu}>Storage Maintenance</HoveredLink>
-                        <HoveredLink href="/services/third-party-hardware/server-maintenance" onClick={toggleMenu}>Server Maintenance</HoveredLink>
-                        <HoveredLink href="/services/third-party-hardware/network-maintenance" onClick={toggleMenu}>Network Maintenance</HoveredLink>
-                        <HoveredLink href="/services/infrastructure-services/vmware-technical-support" onClick={toggleMenu}>VMware Technical Support</HoveredLink>
+                        {infrastructureServices.map((infraservice, index) => (
+                            <div key={index}>
+                                <HoveredLink onClick={toggleMenu} href={infraservice.slug}>
+                                    {infraservice.title}
+                                </HoveredLink>
+                            </div>
+                        ))}
                     </>}
             </div>
 
-            <div className="flex flex-col space-y-3 mt-4 ml-4 text-base">
+            <div className="flex flex-col space-y-3 mt-4 text-base">
                 <div className="flex flex-row items-center font-semibold text-lg"
                     onClick={() => toggle("professionalservice")}>
                     Professional Services <HiArrowRight className="ml-1" />
@@ -73,12 +151,13 @@ function NavbarItem({ toggleMenu }: NavbarItemProps) {
                 <hr />
                 {isOpenService === "professionalservice" &&
                     <>
-                        <HoveredLink href="/services/professional-services/wireless-transformation" onClick={toggleMenu}>Wireless Transformation</HoveredLink>
-                        <HoveredLink href="/services/professional-services/storage-and-data-migration" onClick={toggleMenu}>Storage & Data Migration</HoveredLink>
-                        <HoveredLink href="/services/professional-services/cloud-support" onClick={toggleMenu}>Cloud Support</HoveredLink>
-                        <HoveredLink href="/services/professional-services/os-support" onClick={toggleMenu}>OS Support</HoveredLink>
-                        <HoveredLink href="/services/professional-services/it-deployements" onClick={toggleMenu}>IT Deployments</HoveredLink>
-                        <HoveredLink href="/services/professional-services/software-development" onClick={toggleMenu}>Software Development</HoveredLink>
+                        {professionalServices.map((service, index) => (
+                            <div key={index}>
+                                <HoveredLink onClick={toggleMenu} href={service.slug}>
+                                    {service.title}
+                                </HoveredLink>
+                            </div>
+                        ))}
                     </>}
             </div>
         </div >
