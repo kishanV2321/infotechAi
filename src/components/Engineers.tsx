@@ -1,35 +1,35 @@
 'use client'
 import { WavyBackground } from "./ui/wavy-background"
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import Profile1 from "../asset/employee/girl_profile.jpg"
+import Profile2 from "../asset/employee/ajeet_pic.jpg"
+import Profile3 from "../asset/employee/profile.png"
+import Profile4 from "../asset/employee/profile_kv.png"
 
 const instructors = [
     {
       id: 1,
-      name: '',
-      designation: 'Front-end',
-      image:
-        '',
+      name: 'Shalu Rani',
+      designation: 'MD(IT Infra Adviser)',
+      image: Profile1,
     },
     {
       id: 2,
-      name: '',
-      designation: 'Java Backend',
-      image:
-        '',
+      name: 'Ajeet Kumar',
+      designation: 'IT Consultant',
+      image: Profile2,
     },
     {
       id: 3,
-      name: 'Julia Zhang',
-      designation: 'Piano Teacher',
-      image:
-        '',
+      name: 'Nitin Kumar',
+      designation: 'Cloud Specialist',
+      image: Profile3,
     },
     {
       id: 4,
-      name: 'Andre Gomez',
-      designation: 'Drumming Expert',
-      image:
-        '',
+      name: 'Kishan Verma',
+      designation: 'IT Developer',
+      image: Profile4,
     },
   ];
 
