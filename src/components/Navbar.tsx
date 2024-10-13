@@ -99,11 +99,11 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="#" className="flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                         <Image src={Dig4Ind} alt="Info TechAi" width={60} height={60} />
-                        <span className="self-center md:text-2xl text-xl font-semibold whitespace-nowrap text-white">Digital4India</span>
+                        <span className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white">Digital4India</span>
                     </Link>
 
 
-                    <div className="flex md:order-2 space-x-3 sm:space-x-6 rtl:space-x-reverse">
+                    <div className="flex md:order-2 space-x-2 sm:space-x-6 rtl:space-x-reverse">
                         {/* contact us button */}
                         <Button active={true} linkto={"/contact"}>
                             Contact Us
