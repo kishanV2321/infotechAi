@@ -97,7 +97,7 @@ function Navbar({ className, toggleMenu, isMenuOpen }: NavbarProps) {
         <>
             <div className="bg-black fixed z-50 w-full top-0 start-0 border-b border-x-current h-20">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <Link href="#" className="flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+                    <Link href="#" className="flex items-center md:space-x-2 rtl:space-x-reverse">
                         <Image src={Dig4Ind} alt="Info TechAi" width={60} height={60} />
                         <span className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white">Digital4India</span>
                     </Link>
