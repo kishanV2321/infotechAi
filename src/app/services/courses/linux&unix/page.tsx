@@ -78,7 +78,7 @@ function LinuxUnix() {
                             <div key={index} className='md:p-4'>
                                 <div className="block max-w-md h-60 p-6 border rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-white">{course.title}</h5>
+                                    <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight dark:text-white">{course.title}</h5>
                                     <p className="font-normal dark:text-gray-400">{course.description}</p>
                                     </div>
                             </div>
